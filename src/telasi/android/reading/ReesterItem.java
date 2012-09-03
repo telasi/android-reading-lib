@@ -47,4 +47,11 @@ public class ReesterItem {
 		this.account = account;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof ReesterItem)) return false;
+		ReesterItem item = (ReesterItem) obj;
+		return item.id == this.id;
+	}
+	
 }
