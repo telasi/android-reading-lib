@@ -16,5 +16,5 @@ public class ConfigTest extends TestCase {
 		assertTrue(reester_url.startsWith(Config.getBaseUrl()));
 		assertTrue(reester_url.endsWith("reester.xml"));
 	}
-	
+
 }
