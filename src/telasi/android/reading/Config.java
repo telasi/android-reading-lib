@@ -21,4 +21,8 @@ class Config {
 		return urls.getProperty("base_url");
 	}
 
+	static String getReesterUrl() {
+		return getBaseUrl() + urls.getProperty("reester_url");
+	}
+	
 }
