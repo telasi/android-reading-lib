@@ -2,6 +2,8 @@ package telasi.android.reading;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 /**
@@ -24,5 +26,9 @@ class Config {
 	static String getReesterUrl() {
 		return getBaseUrl() + urls.getProperty("reester_url");
 	}
-	
+
+	static String formatDate(Date date) {
+		return new SimpleDateFormat("d-MMM-yyyy").format(date);
+	}
+
 }
