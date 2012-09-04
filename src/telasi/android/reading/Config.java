@@ -10,25 +10,25 @@ import java.util.Properties;
  * ეს კლასი გამოიყენება კონფიგურაციის მონაცემების მისაღებად.
  */
 class Config {
-	private static Properties urls = new Properties();
+  private static Properties urls = new Properties();
 
-	static {
-		try {
-			urls.load(new FileInputStream("config/url.properties"));
-		} catch (IOException ioe) {
-		}
-	}
+  static {
+    try {
+      urls.load(new FileInputStream("config/url.properties"));
+    } catch (IOException ioe) {
+    }
+  }
 
-	static String getBaseUrl() {
-		return urls.getProperty("base_url");
-	}
+  static String getBaseUrl() {
+    return urls.getProperty("base_url");
+  }
 
-	static String getReesterUrl() {
-		return getBaseUrl() + urls.getProperty("reester_url");
-	}
+  static String getReesterUrl() {
+    return getBaseUrl() + urls.getProperty("reester_url");
+  }
 
-	static String formatDate(Date date) {
-		return new SimpleDateFormat("d-MMM-yyyy").format(date);
-	}
+  static String formatDate(Date date) {
+    return new SimpleDateFormat("d-MMM-yyyy").format(date);
+  }
 
 }

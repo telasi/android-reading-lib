@@ -10,18 +10,10 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 public class MainController {
 
-	public static void getReesterOverHttp(Date d, int inspectorId) {
-		// String query = "?date=" + Config.
-	}
+  public static void getReesterOverHttp(Date d, int inspectorId) {
+    // String query = "?date=" + Config.
+  }
 
-	static Reester parseReester(InputStream in) throws XmlPullParserException, IOException {
-		XmlPullParser parser = XmlPullParserFactory.newInstance().newPullParser(); // Xml.newPullParser();
-		parser.setInput(in, null);
-		parser.nextTag();
-
-		// XXX: XmlPullParserFactory.newInstance().newPullParser() gives stub implementation
-		
-		return null;
-	}
+  // -- Reester parsing
 
 }
