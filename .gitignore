@@ -1,7 +1,5 @@
 *.class
 *.jar
-*.war
-*.ear
 .DS_Store
 
 bin/telasi/android/reading/Config.class
