@@ -10,6 +10,11 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 public class ReadingController {
+  public static String VERSION = "0.0.1.rc1";
+
+  public static String getVersion() {
+    return VERSION;
+  }
 
   public static Reester getReesterOverIO(XmlPullParser xpp, InputStream in) throws XmlPullParserException, IOException, ParseException {
     try {
