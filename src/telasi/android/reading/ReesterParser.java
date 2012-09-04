@@ -1,14 +1,12 @@
 package telasi.android.reading;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
 
 class ReesterParser {
   private Reester reester;
@@ -61,15 +59,10 @@ class ReesterParser {
   static String PATH_ITEM_OTHER_MINCHARGE = PATH_ITEM_OTHER + "/min_charge";
   static String PATH_ITEM_OTHER_MAXCHARGE = PATH_ITEM_OTHER + "/max_charge";
 
-  Reester parse(InputStream in) throws XmlPullParserException, IOException, ParseException {
-    try {
-      this.xpp = XmlPullParserFactory.newInstance().newPullParser();
-      this.xpp.setInput(in, null);
-      processDocument();
-      return this.reester;
-    } finally {
-      in.close();
-    }
+  Reester parse(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException {
+    this.xpp = xpp;
+    processDocument();
+    return this.reester;
   }
 
   private void processDocument() throws XmlPullParserException, IOException, ParseException {
@@ -84,7 +77,7 @@ class ReesterParser {
         path.remove(path.size() - 1);
         changeAddress();
       } else if (eventType == XmlPullParser.TEXT && !xpp.isWhitespace()) {
-//        System.out.println(this.address + ": " + xpp.getText());
+        // System.out.println(this.address + ": " + xpp.getText());
         onText();
       }
     } while (eventType != XmlPullParser.END_DOCUMENT);
@@ -177,7 +170,7 @@ class ReesterParser {
       this.item.getReading().setPreviousRealReading(Double.parseDouble(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_READING_PREV_REAL_DATE)) {
       this.item.getReading().setPreviousRealReadingDate(Config.parseDate(xpp.getText()));
-    } 
+    }
   }
 
   private void changeAddress() {
