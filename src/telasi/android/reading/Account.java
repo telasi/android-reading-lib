@@ -12,6 +12,33 @@ public class Account {
   private String accountNumber;
   private String accountID;
   private String customerName;
+  private double installedCapacity;
+  private double minCharge;
+  private double maxCharge;
+
+  public double getInstalledCapacity() {
+    return installedCapacity;
+  }
+
+  public void setInstalledCapacity(double installedCapacity) {
+    this.installedCapacity = installedCapacity;
+  }
+
+  public double getMinCharge() {
+    return minCharge;
+  }
+
+  public void setMinCharge(double minCharge) {
+    this.minCharge = minCharge;
+  }
+
+  public double getMaxCharge() {
+    return maxCharge;
+  }
+
+  public void setMaxCharge(double maxCharge) {
+    this.maxCharge = maxCharge;
+  }
 
   public int getAcckey() {
     return acckey;

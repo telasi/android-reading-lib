@@ -2,10 +2,20 @@ package telasi.android.reading;
 
 public class ReesterItem {
   private int id;
-  private int routeKey;
-  private int scheduleKey;
+  private int route;
+  private int schedule;
   private int sequence;
   private Account account;
+  private Meter meter;
+  private Reading reading;
+
+  public Reading getReading() {
+    return reading;
+  }
+
+  public void setReading(Reading reading) {
+    this.reading = reading;
+  }
 
   public int getId() {
     return id;
@@ -15,20 +25,20 @@ public class ReesterItem {
     this.id = id;
   }
 
-  public int getRouteKey() {
-    return routeKey;
+  public int getRoute() {
+    return route;
   }
 
-  public void setRouteKey(int routeKey) {
-    this.routeKey = routeKey;
+  public void setRoute(int routeKey) {
+    this.route = routeKey;
   }
 
-  public int getScheduleKey() {
-    return scheduleKey;
+  public int getSchedule() {
+    return schedule;
   }
 
-  public void setScheduleKey(int scheduleKey) {
-    this.scheduleKey = scheduleKey;
+  public void setSchedule(int scheduleKey) {
+    this.schedule = scheduleKey;
   }
 
   public int getSequence() {
@@ -45,6 +55,14 @@ public class ReesterItem {
 
   public void setAccount(Account account) {
     this.account = account;
+  }
+
+  public Meter getMeter() {
+    return meter;
+  }
+
+  public void setMeter(Meter meter) {
+    this.meter = meter;
   }
 
   @Override

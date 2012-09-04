@@ -1,10 +1,10 @@
 <reester>
-  <id>1</id>
+  <id>8978</id>
   <cycledate>01-Jun-2012</cycledate>
   <inspector>11795</inspector>
-  <downloads>1</downloads>
-  <uploads>0</uploads>
-  <status>0</status>
+  <downloads>2</downloads>
+  <uploads>1</uploads>
+  <status>1</status>
   <items>
     <item>
       <id>66953206</id>
@@ -12,8 +12,8 @@
       <sequence>1</sequence>
       <schedule>349201</schedule>
       <account>
-        <status>0</status>
-        <cut>0</cut>
+        <status>2</status>
+        <cut>1</cut>
         <custkey>268997</custkey>
         <acckey>269057</acckey>
         <accnumb>3735159</accnumb>
@@ -29,7 +29,7 @@
         <coeff>1</coeff>
       </meter>
       <reading>
-        <reading></reading>
+        <reading>14440.0</reading>
         <previous_reading>14239.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14239.0</previous_real_reading>
