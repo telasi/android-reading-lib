@@ -32,4 +32,8 @@ public class ReadingController {
     return getReesterOverIO(xpp, in);
   }
 
+  public static Reester getReesterOverHTTP(XmlPullParser xpp, String date, int inspectorId) throws IOException, XmlPullParserException, ParseException {
+    return getReesterOverHTTP(xpp, Config.parseDate(date), inspectorId);
+  }
+
 }
