@@ -1,4 +1,4 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 import junit.framework.TestCase;
 

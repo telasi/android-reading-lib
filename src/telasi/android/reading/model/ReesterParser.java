@@ -1,4 +1,4 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+
 
 class ReesterParser {
   private Reester reester;

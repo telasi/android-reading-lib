@@ -1,4 +1,4 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,6 +8,7 @@ import java.util.Date;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+
 
 public class ReadingController {
   public static String VERSION = "0.0.1.rc1";

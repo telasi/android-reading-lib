@@ -1,10 +1,17 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
+
+import telasi.android.reading.model.Account;
+import telasi.android.reading.model.Meter;
+import telasi.android.reading.model.Reading;
+import telasi.android.reading.model.Reester;
+import telasi.android.reading.model.ReesterItem;
+import telasi.android.reading.model.ReesterParser;
 
 import junit.framework.TestCase;
 

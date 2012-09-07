@@ -1,8 +1,9 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Date;
+
 
 import junit.framework.TestCase;
 

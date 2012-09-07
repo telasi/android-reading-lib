@@ -1,4 +1,4 @@
-package telasi.android.reading;
+package telasi.android.reading.model;
 
 public class Account {
   public static int STATUS_ACTIVE = 0;
