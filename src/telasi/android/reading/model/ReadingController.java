@@ -9,7 +9,6 @@ import java.util.Date;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-
 public class ReadingController {
   public static String VERSION = "0.0.1.rc1";
 
