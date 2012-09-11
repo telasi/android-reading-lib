@@ -11,6 +11,7 @@ public class Reester {
   private int downloads;
   private int uploads;
   private int status;
+  private ReesterItem[] items_ary = {};
   private List<ReesterItem> items = new ArrayList<ReesterItem>();
 
   public int getId() {
@@ -62,15 +63,25 @@ public class Reester {
   }
 
   public ReesterItem[] getItems() {
-    return items.toArray(new ReesterItem[] {});
+    return items_ary;
   }
 
   public boolean addItem(ReesterItem item) {
-    return !items.contains(item) && items.add(item);
+    boolean resp = !items.contains(item) && items.add(item);
+    if (resp)
+      initAry();
+    return resp;
   }
 
   public boolean removeItem(ReesterItem item) {
-    return items.remove(item);
+    boolean resp = items.remove(item);
+    if (resp)
+      initAry();
+    return resp;
+  }
+
+  private void initAry() {
+    this.items_ary = this.items.toArray(new ReesterItem[] {});
   }
 
 }
