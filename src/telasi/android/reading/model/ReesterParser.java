@@ -8,7 +8,7 @@ import java.util.List;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-class ReesterParser {
+class ReesterParser implements ReesterTags {
   private Reester reester;
   private ReesterItem item;
   private XmlPullParser xpp;
@@ -16,48 +16,48 @@ class ReesterParser {
   private List<String> path = new ArrayList<String>();
 
   // reester
-  static String PATH_REESTER = "reester";
-  static String PATH_REESTER_ID = PATH_REESTER + "/id";
-  static String PATH_REESTER_CYCLEDATE = PATH_REESTER + "/cycledate";
-  static String PATH_REESTER_INSPECTOR = PATH_REESTER + "/inspector";
-  static String PATH_REESTER_DOWNLOADS = PATH_REESTER + "/downloads";
-  static String PATH_REESTER_UPLOADS = PATH_REESTER + "/uploads";
-  static String PATH_REESTER_STATUS = PATH_REESTER + "/status";
+  static String PATH_REESTER = REESTER;
+  static String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
+  static String PATH_REESTER_CYCLEDATE = PATH_REESTER + "/" + CYCLE_DATE;
+  static String PATH_REESTER_INSPECTOR = PATH_REESTER + "/" + INSPECTOR;
+  static String PATH_REESTER_DOWNLOADS = PATH_REESTER + "/" + DOWNLOADS;
+  static String PATH_REESTER_UPLOADS = PATH_REESTER + "/" + UPLOADS;
+  static String PATH_REESTER_STATUS = PATH_REESTER + "/" + REESTER_STATUS;
   // items/item
-  static String PATH_ITEM = PATH_REESTER + "/items/item";
-  static String PATH_ITEM_ID = PATH_ITEM + "/id";
-  static String PATH_ITEM_ROUTE = PATH_ITEM + "/route";
-  static String PATH_ITEM_SEQUENCE = PATH_ITEM + "/sequence";
-  static String PATH_ITEM_SCHEDULE = PATH_ITEM + "/schedule";
+  static String PATH_ITEM = PATH_REESTER + "/" + ITEMS + "/" + ITEM;
+  static String PATH_ITEM_ID = PATH_ITEM + "/" + ITEM_ID;
+  static String PATH_ITEM_ROUTE = PATH_ITEM + "/" + ROUTE;
+  static String PATH_ITEM_SEQUENCE = PATH_ITEM + "/" + SEQUENCE;
+  static String PATH_ITEM_SCHEDULE = PATH_ITEM + "/" + SCHEDULE;
   // account
-  static String PATH_ITEM_ACCOUNT = PATH_ITEM + "/account";
-  static String PATH_ITEM_ACCOUNT_STATUS = PATH_ITEM_ACCOUNT + "/status";
-  static String PATH_ITEM_ACCOUNT_CUT = PATH_ITEM_ACCOUNT + "/cut";
-  static String PATH_ITEM_ACCOUNT_CUSTKEY = PATH_ITEM_ACCOUNT + "/custkey";
-  static String PATH_ITEM_ACCOUNT_ACCKEY = PATH_ITEM_ACCOUNT + "/acckey";
-  static String PATH_ITEM_ACCOUNT_ACCNUMB = PATH_ITEM_ACCOUNT + "/accnumb";
-  static String PATH_ITEM_ACCOUNT_ACCID = PATH_ITEM_ACCOUNT + "/accid";
-  static String PATH_ITEM_ACCOUNT_CUSTNAME = PATH_ITEM_ACCOUNT + "/custname";
+  static String PATH_ITEM_ACCOUNT = PATH_ITEM + "/" + ACCOUNT;
+  static String PATH_ITEM_ACCOUNT_STATUS = PATH_ITEM_ACCOUNT + "/" + ACCOUNT_STATUS;
+  static String PATH_ITEM_ACCOUNT_CUT = PATH_ITEM_ACCOUNT + "/" + CUT;
+  static String PATH_ITEM_ACCOUNT_CUSTKEY = PATH_ITEM_ACCOUNT + "/" + CUSTKEY;
+  static String PATH_ITEM_ACCOUNT_ACCKEY = PATH_ITEM_ACCOUNT + "/" + ACCKEY;
+  static String PATH_ITEM_ACCOUNT_ACCNUMB = PATH_ITEM_ACCOUNT + "/" + ACCNUMB;
+  static String PATH_ITEM_ACCOUNT_ACCID = PATH_ITEM_ACCOUNT + "/" + ACCID;
+  static String PATH_ITEM_ACCOUNT_CUSTNAME = PATH_ITEM_ACCOUNT + "/" + CUSTNAME;
   // meter
-  static String PATH_ITEM_METER = PATH_ITEM + "/meter";
-  static String PATH_ITEM_METER_NUMBER = PATH_ITEM_METER + "/number";
-  static String PATH_ITEM_METER_STATUS = PATH_ITEM_METER + "/status";
-  static String PATH_ITEM_METER_SEAL = PATH_ITEM_METER + "/seal_number";
-  static String PATH_ITEM_METER_SEAL_STATUS = PATH_ITEM_METER + "/seal_status";
-  static String PATH_ITEM_METER_DIGITS = PATH_ITEM_METER + "/digits";
-  static String PATH_ITEM_METER_COEFF = PATH_ITEM_METER + "/coeff";
+  static String PATH_ITEM_METER = PATH_ITEM + "/" + METER;
+  static String PATH_ITEM_METER_NUMBER = PATH_ITEM_METER + "/" + METER_NUMBER;
+  static String PATH_ITEM_METER_STATUS = PATH_ITEM_METER + "/" + METER_STATUS;
+  static String PATH_ITEM_METER_SEAL = PATH_ITEM_METER + "/" + SEAL_NUMBER;
+  static String PATH_ITEM_METER_SEAL_STATUS = PATH_ITEM_METER + "/" + SEAL_STATUS;
+  static String PATH_ITEM_METER_DIGITS = PATH_ITEM_METER + "/" + DIGITS;
+  static String PATH_ITEM_METER_COEFF = PATH_ITEM_METER + "/" + COEFF;
   // reading
-  static String PATH_ITEM_READING = PATH_ITEM + "/reading";
-  static String PATH_ITEM_READING_CURR = PATH_ITEM_READING + "/reading";
-  static String PATH_ITEM_READING_PREV = PATH_ITEM_READING + "/previous_reading";
-  static String PATH_ITEM_READING_PREV_DATE = PATH_ITEM_READING + "/previous_reading_date";
-  static String PATH_ITEM_READING_PREV_REAL = PATH_ITEM_READING + "/previous_real_reading";
-  static String PATH_ITEM_READING_PREV_REAL_DATE = PATH_ITEM_READING + "/previous_real_reading_date";
+  static String PATH_ITEM_READING = PATH_ITEM + "/" + READING;
+  static String PATH_ITEM_READING_CURR = PATH_ITEM_READING + "/" + READING_READING;
+  static String PATH_ITEM_READING_PREV = PATH_ITEM_READING + "/" + PREVIOUS_READING;
+  static String PATH_ITEM_READING_PREV_DATE = PATH_ITEM_READING + "/" + PREVIOUS_READING_DATE;
+  static String PATH_ITEM_READING_PREV_REAL = PATH_ITEM_READING + "/" + PREVIOUS_REAL_READING;
+  static String PATH_ITEM_READING_PREV_REAL_DATE = PATH_ITEM_READING + "/" + PREVIOUS_REAL_READING_DATE;
   // other parameters
-  static String PATH_ITEM_OTHER = PATH_ITEM + "/other";
-  static String PATH_ITEM_OTHER_INSCP = PATH_ITEM_OTHER + "/installed_capacity";
-  static String PATH_ITEM_OTHER_MINCHARGE = PATH_ITEM_OTHER + "/min_charge";
-  static String PATH_ITEM_OTHER_MAXCHARGE = PATH_ITEM_OTHER + "/max_charge";
+  static String PATH_ITEM_OTHER = PATH_ITEM + "/" + OTHER;
+  static String PATH_ITEM_OTHER_INSCP = PATH_ITEM_OTHER + "/" + INSTALLED_CAPACITY;
+  static String PATH_ITEM_OTHER_MINCHARGE = PATH_ITEM_OTHER + "/" + MIN_CHARGE;
+  static String PATH_ITEM_OTHER_MAXCHARGE = PATH_ITEM_OTHER + "/" + MAX_CHARGE;
 
   Reester parse(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException {
     this.xpp = xpp;
