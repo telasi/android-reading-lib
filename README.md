@@ -6,13 +6,14 @@
 
 ```java
 // იმპორტი
-import telasi.android.reading.*;
+import telasi.android.reading.model.*;
 
 // რეესტრის მიღება
 XMLPullParser xpp = XML.getXmlPullParser();
-int inspectorId = 1000;
+String username = "dimitri";
+String password = "secret";
 String date = "21-Jun-2012";
-Reester reester = ReadingController.getReesterOverHTTP(xpp, date, inspectorId);
+Reester reester = ReadingController.getReesterOverHTTP(xpp, username, password, date);
 ```
 
 ### რეესტრის ატვირთვა
