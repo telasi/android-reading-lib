@@ -10,12 +10,14 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 public class ReadingController {
-  public static String VERSION = "0.0.1.rc1";
+  public static String VERSION = "0.0.1.rc2";
 
   public static String getVersion() {
     return VERSION;
   }
 
+  // getting reester
+  
   public static Reester getReesterOverIO(XmlPullParser xpp, InputStream in) throws XmlPullParserException, IOException, ParseException {
     try {
       xpp.setInput(in, null);
@@ -35,5 +37,9 @@ public class ReadingController {
   public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
     return getReesterOverHTTP(xpp, username, password, Config.parseDate(date));
   }
+
+  // sending reester
+
+  
 
 }

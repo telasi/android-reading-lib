@@ -8,7 +8,6 @@ import java.util.List;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-
 class ReesterParser {
   private Reester reester;
   private ReesterItem item;
