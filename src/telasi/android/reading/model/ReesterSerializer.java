@@ -13,7 +13,8 @@ public class ReesterSerializer implements ReesterTags {
 
   private void addTag(XmlSerializer xps, String tag, String value) throws IOException {
     xps.startTag("", tag);
-    xps.text(String.valueOf(value));
+    if (value != null)
+      xps.text(String.valueOf(value));
     xps.endTag("", tag);
   }
 
@@ -29,7 +30,7 @@ public class ReesterSerializer implements ReesterTags {
     addTag(xps, tag, Config.formatDate(value));
   }
 
-  private void reesterSerialization(XmlSerializer xps, Writer writter, Reester reester, boolean full) throws IOException {
+  private void reesterSerialization_internalization(XmlSerializer xps, Writer writter, Reester reester, boolean full) throws IOException {
     xps.setOutput(writter);
     xps.startDocument("UTF-8", true);
     xps.startTag("", REESTER);
@@ -93,7 +94,7 @@ public class ReesterSerializer implements ReesterTags {
         addTag(xps, MAX_CHARGE, item.getAccount().getMaxCharge());
         xps.endTag("", OTHER);
       }
-      
+
       xps.endTag("", "item");
     }
     xps.endTag("", "items");
@@ -101,26 +102,22 @@ public class ReesterSerializer implements ReesterTags {
     xps.endDocument();
   }
 
-  void shortReesterSerialization(XmlSerializer xps, Writer writter, Reester reester) throws IOException {
-    reesterSerialization(xps, writter, reester, false);
+  void reesterSerialization(XmlSerializer xps, Writer writter, Reester reester, boolean full) throws IOException {
+    reesterSerialization_internalization(xps, writter, reester, full);
   }
 
-  void shortReesterSerialization(XmlSerializer xps, OutputStream out, Reester reester) throws IOException {
+  void reesterSerialization(XmlSerializer xps, OutputStream out, Reester reester, boolean full) throws IOException {
     try {
-      shortReesterSerialization(xps, new OutputStreamWriter(out), reester);
+      reesterSerialization(xps, new OutputStreamWriter(out), reester, full);
     } finally {
       out.close();
     }
   }
 
-  String shortReesterSerialization(XmlSerializer xps, Reester reester) throws IOException {
+  String reesterSerialization(XmlSerializer xps, Reester reester, boolean full) throws IOException {
     StringWriter w = new StringWriter();
-    shortReesterSerialization(xps, w, reester);
+    reesterSerialization(xps, w, reester, full);
     return w.toString();
-  }
-
-  void fullReesterSerialization(XmlSerializer xps, Writer writter, Reester reester) throws IOException {
-    reesterSerialization(xps, writter, reester, true);
   }
 
 }
