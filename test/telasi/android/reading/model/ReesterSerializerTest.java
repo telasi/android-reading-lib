@@ -10,7 +10,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
-public class SerializerTest extends TestCase {
+public class ReesterSerializerTest extends TestCase {
 
   private ReesterItem newItem(int id, double reading) {
     ReesterItem item = new ReesterItem();

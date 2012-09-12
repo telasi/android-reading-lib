@@ -31,6 +31,10 @@ class Config {
   static String getReesterUploadUrl() {
     return urls.getProperty("reester_upload_url");
   }
+
+  static String getLoginUrl() {
+    return urls.getProperty("login_url");
+  }
   
   static String formatDate(Date date) {
     return new SimpleDateFormat("d-MMM-yyyy").format(date);
@@ -39,5 +43,5 @@ class Config {
   static Date parseDate(String dateString) throws ParseException {
     return new SimpleDateFormat("d-MMM-yyyy").parse(dateString);
   }
-  
+
 }

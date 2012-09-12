@@ -15,7 +15,7 @@ import telasi.android.reading.model.ReesterParser;
 
 import junit.framework.TestCase;
 
-public class ParserTest extends TestCase {
+public class ReesterParserTest extends TestCase {
 
   public void testParsing() throws Exception {
     InputStream in = new FileInputStream("data/reester.xml");

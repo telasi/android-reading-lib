@@ -30,11 +30,11 @@ public class ReadingController {
     return VERSION;
   }
 
-  /*------------------------------------------------------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------------*/
 
   public static Reester getReesterOverIO(InputStream in) throws XmlPullParserException, IOException, ParseException {
     try {
-      XmlPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
+      XmlPullParser xpp = createParser();
       xpp.setInput(in, null);
       return new ReesterParser().parse(xpp);
     } finally {
@@ -55,29 +55,14 @@ public class ReadingController {
     return getReesterOverIO(in);
   }
 
-  public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
+  public static Reester getReesterOverHTTP(String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
     return getReesterOverHTTP(username, password, date == null ? null : Config.parseDate(date));
   }
 
-  /*------------------------------------------------------------------------------------------------------------------------------------------*/
-
-  private static String readInputStream(InputStream in) throws IOException {
-    try {
-      BufferedReader br = new BufferedReader(new InputStreamReader(in));
-      StringBuilder text = new StringBuilder();
-      String line;
-      while ((line = br.readLine()) != null) {
-        text.append(line);
-        text.append("\n");
-      }
-      return text.toString().trim();
-    } finally {
-      in.close();
-    }
-  }
+  /*----------------------------------------------------------------------------------------------------*/
 
   public static String sendReesterOverHTTP(Reester reester, String username, String password) throws IOException, UploadException, XmlPullParserException {
-    XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
+    XmlSerializer xps = getSerializer();
     HttpClient httpclient = new DefaultHttpClient();
     HttpPost httppost = new HttpPost(Config.getReesterUploadUrl());
     List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(3);
@@ -95,8 +80,44 @@ public class ReadingController {
   }
 
   public static void saveReesterOverIO(Reester reester, OutputStream out) throws IOException, XmlPullParserException {
-    XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
+    XmlSerializer xps = getSerializer();
     new ReesterSerializer().reesterSerialization(xps, out, reester, true);
+  }
+
+  /*----------------------------------------------------------------------------------------------------*/
+
+  public static User login(String username, String password) throws IOException, XmlPullParserException, ParseException, LoginException {
+    String query = "?username=" + username + "&password=" + password;
+    URL url = new URL(Config.getLoginUrl() + query);
+    InputStream in = url.openStream();
+    XmlPullParser xpp = createParser();
+    xpp.setInput(in, null);
+    return new UserParser().parse(xpp);
+  }
+
+  /*----------------------------------------------------------------------------------------------------*/
+
+  private static String readInputStream(InputStream in) throws IOException {
+    try {
+      BufferedReader br = new BufferedReader(new InputStreamReader(in));
+      StringBuilder text = new StringBuilder();
+      String line;
+      while ((line = br.readLine()) != null) {
+        text.append(line);
+        text.append("\n");
+      }
+      return text.toString().trim();
+    } finally {
+      in.close();
+    }
+  }
+
+  private static XmlPullParser createParser() throws XmlPullParserException {
+    return XmlPullParserFactory.newInstance().newPullParser();
+  }
+
+  private static XmlSerializer getSerializer() throws XmlPullParserException {
+    return XmlPullParserFactory.newInstance().newSerializer();
   }
 
 }

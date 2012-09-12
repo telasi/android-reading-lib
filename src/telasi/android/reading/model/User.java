@@ -6,6 +6,7 @@ public class User {
   private String name;
   private String firstName;
   private String lastName;
+  private String login;
 
   public int getId() {
     return id;
@@ -47,4 +48,11 @@ public class User {
     this.lastName = lastName;
   }
 
+  public String getLogin() {
+    return login;
+  }
+
+  public void setLogin(String login) {
+    this.login = login;
+  }
 }
