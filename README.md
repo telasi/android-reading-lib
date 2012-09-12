@@ -31,6 +31,13 @@ Reester reester = ReadingController.getReesterOverIO(xpp, in);
 
 რეესტრის დამუშავების შემდეგ ის შეიძლება აიტვირთოს უკან ვებ-სერვერზე.
 
+```java
+XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
+String username = "dimitri";
+String password = "secret";
+Reester reester = ReadingController.sendReesterOverHTTP(reester, xps, username, password);
+```
+
 ### რეესტრის ფაილში შენახვა
 
 რეესტრის დამუშავების პროცესში შეიძლება შევინახოთ ფაილში:
