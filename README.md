@@ -8,11 +8,10 @@
 რეესტის მიღება სერვერიდან ასე გამოიყურება:
 
 ```java
-XMLPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
 String username = "dimitri";
 String password = "secret";
 String date = "21-Jun-2012";
-Reester reester = ReadingController.getReesterOverHTTP(xpp, username, password, date);
+Reester reester = ReadingController.getReesterOverHTTP(username, password, date);
 ```
 
 მუშაობის პროცესში თქვენ შეგიძლიათ შეინახოთ რეესტრი ფაილში (იხ. ქვემოთ).
@@ -20,9 +19,8 @@ Reester reester = ReadingController.getReesterOverHTTP(xpp, username, password, 
 
 
 ```java
-XMLPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
 InputStream in = new FileInputStream("reester.xml");
-Reester reester = ReadingController.getReesterOverIO(xpp, in);
+Reester reester = ReadingController.getReesterOverIO(in);
 ```
 
 რეესტრის ფაილიდან აღდგენის შემთხვევაში საჭირო არაა მომხმარებლის და პაროლის მითითება.
@@ -32,10 +30,9 @@ Reester reester = ReadingController.getReesterOverIO(xpp, in);
 რეესტრის დამუშავების შემდეგ ის შეიძლება აიტვირთოს უკან ვებ-სერვერზე.
 
 ```java
-XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
 String username = "dimitri";
 String password = "secret";
-Reester reester = ReadingController.sendReesterOverHTTP(reester, xps, username, password);
+Reester reester = ReadingController.sendReesterOverHTTP(reester, username, password);
 ```
 
 ### რეესტრის ფაილში შენახვა
@@ -43,9 +40,8 @@ Reester reester = ReadingController.sendReesterOverHTTP(reester, xps, username, 
 რეესტრის დამუშავების პროცესში შეიძლება შევინახოთ ფაილში:
 
 ```java
-XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
 OutputStream out = new FileOutputStream("reester.xml");
-ReadingController.saveReesterOverIO(reester, xps, out);
+ReadingController.saveReesterOverIO(reester, out);
 ```
 
 ### რეესტრის შემოწმება
