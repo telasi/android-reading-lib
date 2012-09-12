@@ -24,7 +24,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
 public class ReadingController {
-  public static String VERSION = "0.0.1.rc2";
+  public static String VERSION = "0.0.1.rc3";
 
   public static String getVersion() {
     return VERSION;
@@ -32,7 +32,7 @@ public class ReadingController {
 
   /*----------------------------------------------------------------------------------------------------*/
 
-  public static Reester getReesterOverIO(InputStream in) throws XmlPullParserException, IOException, ParseException {
+  public static Reester getReesterOverIO(InputStream in) throws XmlPullParserException, IOException, ParseException, DownloadException {
     try {
       XmlPullParser xpp = createParser();
       xpp.setInput(in, null);
@@ -42,11 +42,11 @@ public class ReadingController {
     }
   }
 
-  public static Reester getReesterOverHTTP(String username, String password) throws IOException, XmlPullParserException, ParseException {
+  public static Reester getReesterOverHTTP(String username, String password) throws IOException, XmlPullParserException, ParseException, DownloadException {
     return getReesterOverHTTP(username, password, (Date) null);
   }
 
-  public static Reester getReesterOverHTTP(String username, String password, Date date) throws IOException, XmlPullParserException, ParseException {
+  public static Reester getReesterOverHTTP(String username, String password, Date date) throws IOException, XmlPullParserException, ParseException, DownloadException {
     String query = "?username=" + username + "&password=" + password;
     if (date != null)
       query += "&date=" + Config.formatDate(date);
@@ -55,7 +55,7 @@ public class ReadingController {
     return getReesterOverIO(in);
   }
 
-  public static Reester getReesterOverHTTP(String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
+  public static Reester getReesterOverHTTP(String username, String password, String date) throws IOException, XmlPullParserException, ParseException, DownloadException {
     return getReesterOverHTTP(username, password, date == null ? null : Config.parseDate(date));
   }
 

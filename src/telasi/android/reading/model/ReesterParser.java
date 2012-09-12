@@ -8,13 +8,7 @@ import java.util.List;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-class ReesterParser implements ReesterTags {
-  private Reester reester;
-  private ReesterItem item;
-  private XmlPullParser xpp;
-  private String address;
-  private List<String> path = new ArrayList<String>();
-
+class ReesterParser implements ReesterTags, ErrorTags {
   // reester
   static final String PATH_REESTER = REESTER;
   static final String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
@@ -59,13 +53,28 @@ class ReesterParser implements ReesterTags {
   static final String PATH_ITEM_OTHER_MINCHARGE = PATH_ITEM_OTHER + "/" + MIN_CHARGE;
   static final String PATH_ITEM_OTHER_MAXCHARGE = PATH_ITEM_OTHER + "/" + MAX_CHARGE;
 
-  Reester parse(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException {
+  // error
+  static final String PATH_ERROR = ERROR;
+  static final String PATH_ERROR_MESSAGE = PATH_ERROR + "/" + ERROR_MESSAGE;
+
+  private Reester reester;
+  private ReesterItem item;
+  private XmlPullParser xpp;
+  private String address;
+  private Error error;
+  private List<String> path = new ArrayList<String>();
+
+  Reester parse(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException, DownloadException {
     this.xpp = xpp;
     processDocument();
-    return this.reester;
+    if (error != null) {
+      throw new DownloadException(error.getMessage());
+    } else {
+      return this.reester;
+    }
   }
 
-  private void processDocument() throws XmlPullParserException, IOException, ParseException {
+  private void processDocument() throws XmlPullParserException, IOException, ParseException, DownloadException {
     int eventType; // xpp.getEventType();
     do {
       eventType = xpp.next();
@@ -77,14 +86,15 @@ class ReesterParser implements ReesterTags {
         path.remove(path.size() - 1);
         changeAddress();
       } else if (eventType == XmlPullParser.TEXT && !xpp.isWhitespace()) {
-        // System.out.println(this.address + ": " + xpp.getText());
         onText();
       }
     } while (eventType != XmlPullParser.END_DOCUMENT);
   }
 
   private void onTagStart() {
-    if (this.address.equals(PATH_REESTER)) {
+    if (this.address.equals(PATH_ERROR)) {
+      this.error = new Error();
+    } else if (this.address.equals(PATH_REESTER)) {
       this.reester = new Reester();
     } else if (this.address.equals(PATH_ITEM)) {
       this.item = new ReesterItem();
@@ -99,8 +109,12 @@ class ReesterParser implements ReesterTags {
   }
 
   private void onText() throws ParseException {
+    // error
+    if (this.address.equals(PATH_ERROR_MESSAGE)) {
+      this.error.setMessage(xpp.getText());
+    }
     // reester
-    if (this.address.equals(PATH_REESTER_ID)) {
+    else if (this.address.equals(PATH_REESTER_ID)) {
       this.reester.setId(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_REESTER_CYCLEDATE)) {
       this.reester.setCycleDate(Config.parseDate(xpp.getText()));

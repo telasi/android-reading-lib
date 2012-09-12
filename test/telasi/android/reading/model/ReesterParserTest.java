@@ -74,4 +74,24 @@ public class ReesterParserTest extends TestCase {
     }
   }
 
+  public void testParsingWithException() throws Exception {
+    InputStream in = new FileInputStream("data/error.xml");
+    try {
+      XmlPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
+      xpp.setInput(in, null);
+
+      DownloadException de = null;
+      try {
+        new ReesterParser().parse(xpp);
+      } catch (DownloadException ex) {
+        de = ex;
+      }
+      assertNotNull(de);
+      assertEquals("error message", de.getMessage());
+
+    } finally {
+      in.close();
+    }
+  }
+
 }
