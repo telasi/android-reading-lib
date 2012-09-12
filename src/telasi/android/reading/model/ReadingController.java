@@ -27,6 +27,10 @@ public class ReadingController {
     }
   }
 
+  public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password) throws IOException, XmlPullParserException, ParseException {
+    return getReesterOverHTTP(xpp, username, password, (Date) null);
+  }
+  
   public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, Date date) throws IOException, XmlPullParserException, ParseException {
     String query = "?username=" + username + "&password=" + password;
     if (date != null)
