@@ -20,6 +20,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
 public class ReadingController {
@@ -31,8 +32,9 @@ public class ReadingController {
 
   /*------------------------------------------------------------------------------------------------------------------------------------------*/
 
-  public static Reester getReesterOverIO(XmlPullParser xpp, InputStream in) throws XmlPullParserException, IOException, ParseException {
+  public static Reester getReesterOverIO(InputStream in) throws XmlPullParserException, IOException, ParseException {
     try {
+      XmlPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
       xpp.setInput(in, null);
       return new ReesterParser().parse(xpp);
     } finally {
@@ -40,21 +42,21 @@ public class ReadingController {
     }
   }
 
-  public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password) throws IOException, XmlPullParserException, ParseException {
-    return getReesterOverHTTP(xpp, username, password, (Date) null);
+  public static Reester getReesterOverHTTP(String username, String password) throws IOException, XmlPullParserException, ParseException {
+    return getReesterOverHTTP(username, password, (Date) null);
   }
 
-  public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, Date date) throws IOException, XmlPullParserException, ParseException {
+  public static Reester getReesterOverHTTP(String username, String password, Date date) throws IOException, XmlPullParserException, ParseException {
     String query = "?username=" + username + "&password=" + password;
     if (date != null)
       query += "&date=" + Config.formatDate(date);
     URL url = new URL(Config.getReesterUrl() + query);
     InputStream in = url.openStream();
-    return getReesterOverIO(xpp, in);
+    return getReesterOverIO(in);
   }
 
   public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
-    return getReesterOverHTTP(xpp, username, password, date == null ? null : Config.parseDate(date));
+    return getReesterOverHTTP(username, password, date == null ? null : Config.parseDate(date));
   }
 
   /*------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -74,7 +76,8 @@ public class ReadingController {
     }
   }
 
-  public static String sendReesterOverHTTP(Reester reester, XmlSerializer xps, String username, String password) throws IOException, UploadException {
+  public static String sendReesterOverHTTP(Reester reester, String username, String password) throws IOException, UploadException, XmlPullParserException {
+    XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
     HttpClient httpclient = new DefaultHttpClient();
     HttpPost httppost = new HttpPost(Config.getReesterUploadUrl());
     List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(3);
@@ -91,7 +94,8 @@ public class ReadingController {
     }
   }
 
-  public static void saveReesterOverIO(Reester reester, XmlSerializer xps, OutputStream out) throws IOException {
+  public static void saveReesterOverIO(Reester reester, OutputStream out) throws IOException, XmlPullParserException {
+    XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
     new ReesterSerializer().reesterSerialization(xps, out, reester, true);
   }
 
