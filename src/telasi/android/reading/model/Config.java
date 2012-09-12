@@ -28,6 +28,10 @@ class Config {
     return getBaseUrl() + urls.getProperty("reester_url");
   }
 
+  static String getReesterUploadUrl() {
+    return urls.getProperty("reester_upload_url");
+  }
+  
   static String formatDate(Date date) {
     return new SimpleDateFormat("d-MMM-yyyy").format(date);
   }

@@ -9,7 +9,7 @@ import java.util.Date;
 
 import org.xmlpull.v1.XmlSerializer;
 
-public class ReesterSerializer implements ReesterTags {
+class ReesterSerializer implements ReesterTags {
 
   private void addTag(XmlSerializer xps, String tag, String value) throws IOException {
     xps.startTag("", tag);
