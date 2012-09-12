@@ -16,8 +16,8 @@ public class ReadingController {
     return VERSION;
   }
 
-  // getting reester
-  
+  /*------------------------------------------------------------------------------------------------------------------------------------------*/
+
   public static Reester getReesterOverIO(XmlPullParser xpp, InputStream in) throws XmlPullParserException, IOException, ParseException {
     try {
       xpp.setInput(in, null);
@@ -28,14 +28,16 @@ public class ReadingController {
   }
 
   public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, Date date) throws IOException, XmlPullParserException, ParseException {
-    String query = "?date=" + Config.formatDate(date) + "&username=" + username + "&password=" + password;
+    String query = "?username=" + username + "&password=" + password;
+    if (date != null)
+      query += "&date=" + Config.formatDate(date);
     URL url = new URL(Config.getBaseUrl() + query);
     InputStream in = url.openStream();
     return getReesterOverIO(xpp, in);
   }
 
   public static Reester getReesterOverHTTP(XmlPullParser xpp, String username, String password, String date) throws IOException, XmlPullParserException, ParseException {
-    return getReesterOverHTTP(xpp, username, password, Config.parseDate(date));
+    return getReesterOverHTTP(xpp, username, password, date == null ? null : Config.parseDate(date));
   }
 
   // sending reester
