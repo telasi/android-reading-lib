@@ -2,23 +2,44 @@
 
 ### რეესტრის მიღება
 
-რეესტრის მისაღებად გამოიყენეთ ` ReadingController`  კლასი:
+რეესტრის მისაღება შესაძლებელია ვებ-სერვერიდან. ასეთ შემთხვევაში თქვენ უნდა იყოთ ავტორიზირებული
+ბილინგის მომხმარებელი და გქონდეთ მომხმარებლის სახელი და პაროლი.
+
+რეესტის მიღება სერვერიდან ასე გამოიყურება:
 
 ```java
-// იმპორტი
-import telasi.android.reading.model.*;
-
-// რეესტრის მიღება
-XMLPullParser xpp = XML.getXmlPullParser();
+XMLPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
 String username = "dimitri";
 String password = "secret";
 String date = "21-Jun-2012";
 Reester reester = ReadingController.getReesterOverHTTP(xpp, username, password, date);
 ```
 
+მუშაობის პროცესში თქვენ შეგიძლიათ შეინახოთ რეესტრი ფაილში (იხ. ქვემოთ).
+რეესტრის ფაილიდან აღსადგენად გამოიყენეთ შემდეგი კოდი:
+
+
+```java
+XMLPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
+InputStream in = new FileInputStream("reester.xml");
+Reester reester = ReadingController.getReesterOverIO(xpp, in);
+```
+
+რეესტრის ფაილიდან აღდგენის შემთხვევაში საჭირო არაა მომხმარებლის და პაროლის მითითება.
+
 ### რეესტრის ატვირთვა
 
-TODO: დასასრულებელია
+რეესტრის დამუშავების შემდეგ ის შეიძლება აიტვირთოს უკან ვებ-სერვერზე.
+
+### რეესტრის ფაილში შენახვა
+
+რეესტრის დამუშავების პროცესში შეიძლება შევინახოთ ფაილში:
+
+```java
+XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
+OutputStream out = new FileOutputStream("reester.xml");
+ReadingController.saveReesterOverIO(reester, xps, out);
+```
 
 ### რეესტრის შემოწმება
 
