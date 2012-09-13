@@ -15,6 +15,15 @@ public class Account {
   private double installedCapacity;
   private double minCharge;
   private double maxCharge;
+  private String address;
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
+  }
 
   public double getInstalledCapacity() {
     return installedCapacity;

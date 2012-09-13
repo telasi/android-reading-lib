@@ -25,6 +25,7 @@ public interface ReesterTags {
   static final String ACCNUMB = "accnumb";
   static final String ACCID = "accid";
   static final String CUSTNAME = "custname";
+  static final String ADDRESS = "address";
   // meter
   static final String METER = "meter";
   static final String METER_NUMBER = "number";

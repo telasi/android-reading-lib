@@ -25,7 +25,7 @@ public class ReesterParserTest extends TestCase {
 
       Reester r = new ReesterParser().parse(xpp);
       assertNotNull(r);
-      assertEquals(8978, r.getId());
+      assertEquals(1, r.getId());
       assertEquals(Config.parseDate("01-Jun-2012"), r.getCycleDate());
       assertEquals(11795, r.getInspectorId());
       assertEquals(2, r.getDownloads());
@@ -49,6 +49,8 @@ public class ReesterParserTest extends TestCase {
       assertEquals("3735159", acc.getAccountNumber());
       assertEquals("3735159-1", acc.getAccountID());
       assertEquals("ბუბუტეიშვილი ლ ლ", acc.getCustomerName());
+      assertEquals("0177, ზაქარიაძის ქ. №05, სად. 1, ბ. 001", acc.getAddress());
+      
       assertEquals(274, acc.getInstalledCapacity(), 0.001);
       assertEquals(0, acc.getMinCharge(), 0.001);
       assertEquals(1500, acc.getMaxCharge(), 0.001);

@@ -32,6 +32,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_ITEM_ACCOUNT_ACCNUMB = PATH_ITEM_ACCOUNT + "/" + ACCNUMB;
   static final String PATH_ITEM_ACCOUNT_ACCID = PATH_ITEM_ACCOUNT + "/" + ACCID;
   static final String PATH_ITEM_ACCOUNT_CUSTNAME = PATH_ITEM_ACCOUNT + "/" + CUSTNAME;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS = PATH_ITEM_ACCOUNT + "/" + ADDRESS;
   // meter
   static final String PATH_ITEM_METER = PATH_ITEM + "/" + METER;
   static final String PATH_ITEM_METER_NUMBER = PATH_ITEM_METER + "/" + METER_NUMBER;
@@ -152,6 +153,8 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.item.getAccount().setAccountID(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_ACCOUNT_CUSTNAME)) {
       this.item.getAccount().setCustomerName(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS)) {
+      this.item.getAccount().setAddress(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_OTHER_INSCP)) {
       this.item.getAccount().setInstalledCapacity(Double.parseDouble(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_OTHER_MINCHARGE)) {

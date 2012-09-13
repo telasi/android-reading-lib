@@ -3,6 +3,7 @@ package telasi.android.reading.model;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * ეს კლასი გამოიყენება კონფიგურაციის მონაცემების მისაღებად.
@@ -26,11 +27,11 @@ class Config {
   }
   
   static String formatDate(Date date) {
-    return new SimpleDateFormat("d-MMM-yyyy").format(date);
+    return new SimpleDateFormat("d-MMM-yyyy", Locale.US).format(date);
   }
 
   static Date parseDate(String dateString) throws ParseException {
-    return new SimpleDateFormat("d-MMM-yyyy").parse(dateString);
+    return new SimpleDateFormat("d-MMM-yyyy", Locale.US).parse(dateString);
   }
 
 }
