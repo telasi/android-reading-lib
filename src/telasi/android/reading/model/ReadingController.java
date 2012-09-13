@@ -1,9 +1,7 @@
 package telasi.android.reading.model;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.URL;
 import java.text.ParseException;
@@ -61,7 +59,7 @@ public class ReadingController {
 
   /*----------------------------------------------------------------------------------------------------*/
 
-  public static String sendReesterOverHTTP(Reester reester, String username, String password) throws IOException, UploadException, XmlPullParserException {
+  public static Information sendReesterOverHTTP(Reester reester, String username, String password) throws IOException, InformationException, XmlPullParserException, ParseException {
     XmlSerializer xps = getSerializer();
     HttpClient httpclient = new DefaultHttpClient();
     HttpPost httppost = new HttpPost(Config.getReesterUploadUrl());
@@ -71,17 +69,23 @@ public class ReadingController {
     nameValuePairs.add(new BasicNameValuePair("reester", new ReesterSerializer().reesterSerialization(xps, reester, false)));
     httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
     HttpResponse response = httpclient.execute(httppost);
-    String text = readInputStream(response.getEntity().getContent());
-    if ("OK".equalsIgnoreCase(text)) {
-      return "რეესტრი გაგზავნიალია.";
-    } else {
-      throw new UploadException(text);
+    InputStream in = response.getEntity().getContent();
+    try {
+      XmlPullParser xpp = createParser();
+      xpp.setInput(in, null);
+      return new InformationParser().parse(xpp);
+    } finally {
+      in.close();
     }
   }
 
   public static void saveReesterOverIO(Reester reester, OutputStream out) throws IOException, XmlPullParserException {
-    XmlSerializer xps = getSerializer();
-    new ReesterSerializer().reesterSerialization(xps, out, reester, true);
+    try {
+      XmlSerializer xps = getSerializer();
+      new ReesterSerializer().reesterSerialization(xps, out, reester, true);
+    } finally {
+      out.close();
+    }
   }
 
   /*----------------------------------------------------------------------------------------------------*/
@@ -96,21 +100,6 @@ public class ReadingController {
   }
 
   /*----------------------------------------------------------------------------------------------------*/
-
-  private static String readInputStream(InputStream in) throws IOException {
-    try {
-      BufferedReader br = new BufferedReader(new InputStreamReader(in));
-      StringBuilder text = new StringBuilder();
-      String line;
-      while ((line = br.readLine()) != null) {
-        text.append(line);
-        text.append("\n");
-      }
-      return text.toString().trim();
-    } finally {
-      in.close();
-    }
-  }
 
   private static XmlPullParser createParser() throws XmlPullParserException {
     return XmlPullParserFactory.newInstance().newPullParser();
