@@ -8,7 +8,7 @@ import java.util.List;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-class ReesterParser implements ReesterTags, ErrorTags {
+class ReesterParser implements ReesterTags, MessageTags {
   // reester
   static final String PATH_REESTER = REESTER;
   static final String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
@@ -55,7 +55,7 @@ class ReesterParser implements ReesterTags, ErrorTags {
 
   // error
   static final String PATH_ERROR = ERROR;
-  static final String PATH_ERROR_MESSAGE = PATH_ERROR + "/" + ERROR_MESSAGE;
+  static final String PATH_ERROR_MESSAGE = PATH_ERROR + "/" + MESSAGE;
 
   private Reester reester;
   private ReesterItem item;

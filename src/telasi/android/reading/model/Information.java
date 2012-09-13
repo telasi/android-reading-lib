@@ -1,13 +1,13 @@
 package telasi.android.reading.model;
 
-public class Error {
+public class Information {
   private String message;
 
-  public Error() {
+  public Information() {
     this(null);
   }
 
-  public Error(String message) {
+  public Information(String message) {
     setMessage(message);
   }
 

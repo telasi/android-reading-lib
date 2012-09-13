@@ -1,39 +1,28 @@
 package telasi.android.reading.model;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Properties;
 
 /**
  * ეს კლასი გამოიყენება კონფიგურაციის მონაცემების მისაღებად.
  */
 class Config {
-  private static Properties urls = new Properties();
-
-  static {
-    try {
-      urls.load(new FileInputStream("config/url.properties"));
-    } catch (IOException ioe) {
-    }
-  }
 
   static String getBaseUrl() {
-    return urls.getProperty("base_url");
+    return "http://192.168.1.11:3000/";
   }
 
   static String getReesterUrl() {
-    return getBaseUrl() + urls.getProperty("reester_url");
+    return getBaseUrl() + "android/readings/reester.xml";
   }
 
   static String getReesterUploadUrl() {
-    return urls.getProperty("reester_upload_url");
+    return getBaseUrl() + "android/readings/upload";
   }
 
   static String getLoginUrl() {
-    return urls.getProperty("login_url");
+    return getBaseUrl() + "android/login.xml";
   }
   
   static String formatDate(Date date) {

@@ -6,7 +6,7 @@ import java.text.ParseException;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-class UserParser implements ErrorTags {
+class UserParser implements MessageTags {
   static final String USER = "user";
   static final String EMAIL = "email";
   static final String LOGIN = "login";
@@ -51,7 +51,7 @@ class UserParser implements ErrorTags {
   }
 
   private void onText() {
-    if (ERROR_MESSAGE.equals(currentTag)) {
+    if (MESSAGE.equals(currentTag)) {
       this.error.setMessage(xpp.getText());
     } else if (EMAIL.equals(currentTag)) {
       this.user.setEmail(xpp.getText());
