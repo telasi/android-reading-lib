@@ -1,7 +1,10 @@
 package telasi.android.reading.model;
 
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.URL;
 import java.text.ParseException;
@@ -70,12 +73,28 @@ public class ReadingController {
     httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
     HttpResponse response = httpclient.execute(httppost);
     InputStream in = response.getEntity().getContent();
+    ByteArrayInputStream in2 = null;
     try {
+      StringBuilder text = new StringBuilder();
+      String line;
+      BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+      while ((line = reader.readLine()) != null) {
+        text.append(line);
+        text.append("\n");
+      }
+      in2 = new ByteArrayInputStream(text.toString().getBytes("UTF-8"));
       XmlPullParser xpp = createParser();
-      xpp.setInput(in, null);
-      return new InformationParser().parse(xpp);
+      xpp.setInput(in2, null);
+      Information info = new InformationParser().parse(xpp);
+      if (info == null) {
+        throw new InformationException(text.toString());
+      }
+      return info;
     } finally {
       in.close();
+      if (in2 != null) {
+        in2.close();
+      }
     }
   }
 
