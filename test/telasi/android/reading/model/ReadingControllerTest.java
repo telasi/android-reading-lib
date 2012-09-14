@@ -14,9 +14,12 @@ public class ReadingControllerTest extends TestCase {
     String password = "dima123";
     Reester reester = ReadingController.getReesterOverHTTP(username, password, "1-Jun-2012");
     assertNotNull(reester);
+    ReesterItem ri = reester.getItems()[0];
+    ri.getReading().setReading(ri.getReading().getPreviousReading() + 200);
+
     Information info = ReadingController.sendReesterOverHTTP(reester, username, password);
     assertNotNull(info);
     assertEquals("რეესტრი ატვირთულია.", info.getMessage());
   }
-  
+
 }
