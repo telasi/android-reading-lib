@@ -34,6 +34,8 @@ public interface ReesterTags {
   static final String SEAL_STATUS = "seal_status";
   static final String DIGITS = "digits";
   static final String COEFF = "coeff";
+  static final String METER_TYPE = "meter_type";
+  static final String METER_WITHOUT = "without_meter";
   // reading
   static final String READING = "reading";
   static final String READING_READING = "reading";

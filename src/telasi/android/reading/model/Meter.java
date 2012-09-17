@@ -7,6 +7,24 @@ public class Meter {
   private boolean sealActive;
   private int digits;
   private int coeff;
+  private String type;
+  private boolean without;
+
+  public String getType() {
+    return type;
+  }
+
+  public void setType(String type) {
+    this.type = type;
+  }
+
+  public boolean isWithout() {
+    return without;
+  }
+
+  public void setWithout(boolean without) {
+    this.without = without;
+  }
 
   public boolean isActive() {
     return active;

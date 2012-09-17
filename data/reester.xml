@@ -28,9 +28,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading>14440</reading>
+        <reading>14439.0</reading>
         <previous_reading>14239.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14239.0</previous_real_reading>
@@ -66,9 +68,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>40000.0</reading>
         <previous_reading>19448.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19448.0</previous_real_reading>
@@ -104,9 +108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>23000.0</reading>
         <previous_reading>8570.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8570.0</previous_real_reading>
@@ -142,9 +148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>6000.0</reading>
         <previous_reading>18885.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>18885.0</previous_real_reading>
@@ -180,9 +188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>7800.0</reading>
         <previous_reading>58187.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>58187.0</previous_real_reading>
@@ -218,9 +228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>20000.0</reading>
         <previous_reading>17202.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17202.0</previous_real_reading>
@@ -256,9 +268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>800.0</reading>
         <previous_reading>61444.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>61444.0</previous_real_reading>
@@ -294,9 +308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>5600.0</reading>
         <previous_reading>23838.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23838.0</previous_real_reading>
@@ -332,9 +348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>5700.0</reading>
         <previous_reading>13545.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13545.0</previous_real_reading>
@@ -370,9 +388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>65700.0</reading>
         <previous_reading>13134.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13134.0</previous_real_reading>
@@ -408,9 +428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>54000.0</reading>
         <previous_reading>7690.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7690.0</previous_real_reading>
@@ -446,9 +468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>8000.0</reading>
         <previous_reading>30026.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>30026.0</previous_real_reading>
@@ -484,9 +508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>300.0</reading>
         <previous_reading>24321.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24321.0</previous_real_reading>
@@ -522,9 +548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>20000.0</reading>
         <previous_reading>17997.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17997.0</previous_real_reading>
@@ -560,9 +588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>7800.0</reading>
         <previous_reading>45878.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>45878.0</previous_real_reading>
@@ -598,9 +628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>6700.0</reading>
         <previous_reading>417.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>417.0</previous_real_reading>
@@ -636,9 +668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>6000.0</reading>
         <previous_reading>15981.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15981.0</previous_real_reading>
@@ -674,9 +708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>8000.0</reading>
         <previous_reading>9949.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9949.0</previous_real_reading>
@@ -712,9 +748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>2300.0</reading>
         <previous_reading>9766.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9766.0</previous_real_reading>
@@ -750,9 +788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>6700.0</reading>
         <previous_reading>41008.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41008.0</previous_real_reading>
@@ -788,9 +828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>6800.0</reading>
         <previous_reading>27153.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27153.0</previous_real_reading>
@@ -826,9 +868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>4500.0</reading>
         <previous_reading>20935.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20935.0</previous_real_reading>
@@ -864,9 +908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>4300.0</reading>
         <previous_reading>22583.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22583.0</previous_real_reading>
@@ -902,9 +948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13734.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13734.0</previous_real_reading>
@@ -940,9 +988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5493.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5493.0</previous_real_reading>
@@ -978,9 +1028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19798.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19798.0</previous_real_reading>
@@ -1016,9 +1068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13287.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13287.0</previous_real_reading>
@@ -1054,9 +1108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9993.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9993.0</previous_real_reading>
@@ -1092,9 +1148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10016.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10016.0</previous_real_reading>
@@ -1130,9 +1188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22213.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22213.0</previous_real_reading>
@@ -1168,9 +1228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14498.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14498.0</previous_real_reading>
@@ -1206,9 +1268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20377.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20377.0</previous_real_reading>
@@ -1244,9 +1308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1848.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1848.0</previous_real_reading>
@@ -1282,9 +1348,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -1320,9 +1388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>601.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>601.0</previous_real_reading>
@@ -1358,9 +1428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>25956.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>25956.0</previous_real_reading>
@@ -1396,9 +1468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15493.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15493.0</previous_real_reading>
@@ -1434,9 +1508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14143.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14143.0</previous_real_reading>
@@ -1472,9 +1548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12693.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12693.0</previous_real_reading>
@@ -1510,9 +1588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19760.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19760.0</previous_real_reading>
@@ -1548,9 +1628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15490.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15490.0</previous_real_reading>
@@ -1586,9 +1668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15361.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15361.0</previous_real_reading>
@@ -1624,9 +1708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3501.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3501.0</previous_real_reading>
@@ -1662,9 +1748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8279.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8279.0</previous_real_reading>
@@ -1700,9 +1788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16514.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16514.0</previous_real_reading>
@@ -1738,9 +1828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13739.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13739.0</previous_real_reading>
@@ -1776,9 +1868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20435.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20435.0</previous_real_reading>
@@ -1814,9 +1908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12547.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12547.0</previous_real_reading>
@@ -1852,9 +1948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15275.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15275.0</previous_real_reading>
@@ -1890,9 +1988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3450.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3450.0</previous_real_reading>
@@ -1928,9 +2028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23041.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23041.0</previous_real_reading>
@@ -1966,9 +2068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9621.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9621.0</previous_real_reading>
@@ -2004,9 +2108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14248.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14248.0</previous_real_reading>
@@ -2042,9 +2148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>26208.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>26208.0</previous_real_reading>
@@ -2080,9 +2188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8500.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8500.0</previous_real_reading>
@@ -2118,9 +2228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19671.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19671.0</previous_real_reading>
@@ -2156,9 +2268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14386.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14386.0</previous_real_reading>
@@ -2194,9 +2308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10038.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10038.0</previous_real_reading>
@@ -2232,9 +2348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11835.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11835.0</previous_real_reading>
@@ -2270,9 +2388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>82256.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>82256.0</previous_real_reading>
@@ -2308,9 +2428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5642.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5642.0</previous_real_reading>
@@ -2346,9 +2468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24016.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24016.0</previous_real_reading>
@@ -2384,9 +2508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>26956.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>26956.0</previous_real_reading>
@@ -2422,9 +2548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12944.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12944.0</previous_real_reading>
@@ -2460,9 +2588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24293.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24293.0</previous_real_reading>
@@ -2498,9 +2628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11202.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11202.0</previous_real_reading>
@@ -2536,9 +2668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10.0</previous_real_reading>
@@ -2574,9 +2708,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -2612,9 +2748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>25131.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>25131.0</previous_real_reading>
@@ -2650,9 +2788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7942.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7942.0</previous_real_reading>
@@ -2688,9 +2828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>45726.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>45726.0</previous_real_reading>
@@ -2726,9 +2868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20049.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20049.0</previous_real_reading>
@@ -2764,9 +2908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17081.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17081.0</previous_real_reading>
@@ -2802,9 +2948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8633.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8633.0</previous_real_reading>
@@ -2840,9 +2988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9565.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9565.0</previous_real_reading>
@@ -2878,9 +3028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>29562.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>29562.0</previous_real_reading>
@@ -2916,9 +3068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8793.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8793.0</previous_real_reading>
@@ -2954,9 +3108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11422.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11422.0</previous_real_reading>
@@ -2992,9 +3148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9404.0</previous_reading>
         <previous_reading_date>14-Mar-2011</previous_reading_date>
         <previous_real_reading>9404.0</previous_real_reading>
@@ -3030,9 +3188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16287.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16287.0</previous_real_reading>
@@ -3068,9 +3228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5067.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5067.0</previous_real_reading>
@@ -3106,9 +3268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9958.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9721.0</previous_real_reading>
@@ -3144,9 +3308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20483.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20483.0</previous_real_reading>
@@ -3182,9 +3348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>18780.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>18780.0</previous_real_reading>
@@ -3220,9 +3388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7860.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7860.0</previous_real_reading>
@@ -3258,9 +3428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>29896.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>29896.0</previous_real_reading>
@@ -3296,9 +3468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5570.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5570.0</previous_real_reading>
@@ -3334,9 +3508,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2615.0</previous_real_reading>
@@ -3372,9 +3548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14787.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14787.0</previous_real_reading>
@@ -3410,9 +3588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13416.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13416.0</previous_real_reading>
@@ -3448,9 +3628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>54623.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>54623.0</previous_real_reading>
@@ -3486,9 +3668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1662.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1662.0</previous_real_reading>
@@ -3524,9 +3708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>18037.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>18037.0</previous_real_reading>
@@ -3562,9 +3748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>34323.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>34323.0</previous_real_reading>
@@ -3600,9 +3788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10220.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10220.0</previous_real_reading>
@@ -3638,9 +3828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13786.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13786.0</previous_real_reading>
@@ -3676,9 +3868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22484.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22484.0</previous_real_reading>
@@ -3714,9 +3908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5944.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5944.0</previous_real_reading>
@@ -3752,9 +3948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17798.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17798.0</previous_real_reading>
@@ -3790,9 +3988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13367.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13367.0</previous_real_reading>
@@ -3828,9 +4028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11572.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11572.0</previous_real_reading>
@@ -3866,9 +4068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12873.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12873.0</previous_real_reading>
@@ -3904,9 +4108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>506.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>506.0</previous_real_reading>
@@ -3942,9 +4148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>T37F 20(120)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1107.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1107.0</previous_real_reading>
@@ -3980,9 +4188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5949.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5949.0</previous_real_reading>
@@ -4018,9 +4228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9914.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9914.0</previous_real_reading>
@@ -4056,9 +4268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>46404.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>46404.0</previous_real_reading>
@@ -4094,9 +4308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>39166.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>39166.0</previous_real_reading>
@@ -4132,9 +4348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10333.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10333.0</previous_real_reading>
@@ -4170,9 +4388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16649.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16649.0</previous_real_reading>
@@ -4208,9 +4428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10258.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10258.0</previous_real_reading>
@@ -4246,9 +4468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10908.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10908.0</previous_real_reading>
@@ -4284,9 +4508,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1451.0</previous_real_reading>
@@ -4322,9 +4548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16404.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16404.0</previous_real_reading>
@@ -4360,9 +4588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>36621.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>36621.0</previous_real_reading>
@@ -4398,9 +4628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13328.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13328.0</previous_real_reading>
@@ -4436,9 +4668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6174.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6174.0</previous_real_reading>
@@ -4474,9 +4708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>26256.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>26256.0</previous_real_reading>
@@ -4512,9 +4748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14206.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14206.0</previous_real_reading>
@@ -4550,9 +4788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>50117.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>50117.0</previous_real_reading>
@@ -4588,9 +4828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24333.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24333.0</previous_real_reading>
@@ -4626,9 +4868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17375.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17375.0</previous_real_reading>
@@ -4664,9 +4908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>2282.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2282.0</previous_real_reading>
@@ -4702,9 +4948,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -4740,9 +4988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10.5</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10.5</previous_real_reading>
@@ -4778,9 +5028,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -4816,9 +5068,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -4854,9 +5108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14339.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14339.0</previous_real_reading>
@@ -4892,9 +5148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13008.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13008.0</previous_real_reading>
@@ -4930,9 +5188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7413.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7413.0</previous_real_reading>
@@ -4968,9 +5228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1841.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1841.0</previous_real_reading>
@@ -5006,9 +5268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>41018.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41018.0</previous_real_reading>
@@ -5044,9 +5308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>28416.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>28416.0</previous_real_reading>
@@ -5082,9 +5348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>46307.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>46307.0</previous_real_reading>
@@ -5120,9 +5388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>72384.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>72384.0</previous_real_reading>
@@ -5158,9 +5428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>43629.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>43629.0</previous_real_reading>
@@ -5196,9 +5468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>76361.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>76361.0</previous_real_reading>
@@ -5234,9 +5508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>29128.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>29128.0</previous_real_reading>
@@ -5272,9 +5548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16000.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16000.0</previous_real_reading>
@@ -5310,9 +5588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>78761.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>78761.0</previous_real_reading>
@@ -5348,9 +5628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>34222.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>34222.0</previous_real_reading>
@@ -5386,9 +5668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10219.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10219.0</previous_real_reading>
@@ -5424,9 +5708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>40980.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>40980.0</previous_real_reading>
@@ -5462,9 +5748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24764.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24764.0</previous_real_reading>
@@ -5500,9 +5788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23756.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23756.0</previous_real_reading>
@@ -5538,9 +5828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21692.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21692.0</previous_real_reading>
@@ -5576,9 +5868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>81472.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>81472.0</previous_real_reading>
@@ -5614,9 +5908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>50272.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>50272.0</previous_real_reading>
@@ -5652,9 +5948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32130.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32130.0</previous_real_reading>
@@ -5690,9 +5988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12449.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12449.0</previous_real_reading>
@@ -5728,9 +6028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22388.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22388.0</previous_real_reading>
@@ -5766,9 +6068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>T31F 10(60)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20895.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20895.0</previous_real_reading>
@@ -5804,9 +6108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>2752.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2752.0</previous_real_reading>
@@ -5842,9 +6148,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -5880,9 +6188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17885.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17885.0</previous_real_reading>
@@ -5918,9 +6228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17722.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17722.0</previous_real_reading>
@@ -5956,9 +6268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3963.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3963.0</previous_real_reading>
@@ -5994,9 +6308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>26565.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>26565.0</previous_real_reading>
@@ -6032,9 +6348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9343.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9343.0</previous_real_reading>
@@ -6070,9 +6388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21767.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21767.0</previous_real_reading>
@@ -6108,9 +6428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15331.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15331.0</previous_real_reading>
@@ -6146,9 +6468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22120.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22120.0</previous_real_reading>
@@ -6184,9 +6508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16417.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16417.0</previous_real_reading>
@@ -6222,9 +6548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19198.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19198.0</previous_real_reading>
@@ -6260,9 +6588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21250.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21250.0</previous_real_reading>
@@ -6298,9 +6628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3113.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3113.0</previous_real_reading>
@@ -6336,9 +6668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27671.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27671.0</previous_real_reading>
@@ -6374,9 +6708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23500.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23500.0</previous_real_reading>
@@ -6412,9 +6748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16768.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16768.0</previous_real_reading>
@@ -6450,9 +6788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8720.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8720.0</previous_real_reading>
@@ -6488,9 +6828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14472.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14472.0</previous_real_reading>
@@ -6526,9 +6868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8067.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8067.0</previous_real_reading>
@@ -6564,9 +6908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>T31F 10(60)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6047.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6047.0</previous_real_reading>
@@ -6602,9 +6948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6.0</previous_real_reading>
@@ -6640,9 +6988,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>268.0</previous_real_reading>
@@ -6678,9 +7028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9190.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9190.0</previous_real_reading>
@@ -6716,9 +7068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6653.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6653.0</previous_real_reading>
@@ -6754,9 +7108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14011.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14011.0</previous_real_reading>
@@ -6792,9 +7148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>2191.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2191.0</previous_real_reading>
@@ -6830,9 +7188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27090.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27090.0</previous_real_reading>
@@ -6868,9 +7228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>42594.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>42594.0</previous_real_reading>
@@ -6906,9 +7268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>38260.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>38260.0</previous_real_reading>
@@ -6944,9 +7308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22829.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22829.0</previous_real_reading>
@@ -6982,9 +7348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8.0</previous_real_reading>
@@ -7020,9 +7388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>48051.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>48051.0</previous_real_reading>
@@ -7058,9 +7428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12540.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12540.0</previous_real_reading>
@@ -7096,9 +7468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6349.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6349.0</previous_real_reading>
@@ -7134,9 +7508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12461.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12461.0</previous_real_reading>
@@ -7172,9 +7548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>80723.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>80723.0</previous_real_reading>
@@ -7210,9 +7588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>36330.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>36330.0</previous_real_reading>
@@ -7248,9 +7628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>48311.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>48311.0</previous_real_reading>
@@ -7286,9 +7668,11 @@
         <seal_status>0</seal_status>
         <digits>6</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22096.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22096.0</previous_real_reading>
@@ -7324,9 +7708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6923.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6923.0</previous_real_reading>
@@ -7362,9 +7748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13069.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13069.0</previous_real_reading>
@@ -7400,9 +7788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1337.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1337.0</previous_real_reading>
@@ -7438,9 +7828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>25756.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>25756.0</previous_real_reading>
@@ -7476,9 +7868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>4710.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>4710.0</previous_real_reading>
@@ -7514,9 +7908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>41710.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41710.0</previous_real_reading>
@@ -7552,9 +7948,11 @@
         <seal_status>0</seal_status>
         <digits>6</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14268.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14268.0</previous_real_reading>
@@ -7590,9 +7988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>4175.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>4175.0</previous_real_reading>
@@ -7628,9 +8028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>T31F 10(60)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19340.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19340.0</previous_real_reading>
@@ -7666,9 +8068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>62370.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>62370.0</previous_real_reading>
@@ -7704,9 +8108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>47060.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>47060.0</previous_real_reading>
@@ -7742,9 +8148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>25609.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>25609.0</previous_real_reading>
@@ -7780,9 +8188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>41037.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41037.0</previous_real_reading>
@@ -7818,9 +8228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>28477.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>28477.0</previous_real_reading>
@@ -7856,9 +8268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>2572.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2572.0</previous_real_reading>
@@ -7894,9 +8308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>52491.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>52491.0</previous_real_reading>
@@ -7932,9 +8348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32067.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32067.0</previous_real_reading>
@@ -7970,9 +8388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>43469.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>43469.0</previous_real_reading>
@@ -8008,9 +8428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>48969.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>48969.0</previous_real_reading>
@@ -8046,9 +8468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>124.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>124.0</previous_real_reading>
@@ -8084,9 +8508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>59708.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>59708.0</previous_real_reading>
@@ -8122,9 +8548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>43492.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>43492.0</previous_real_reading>
@@ -8160,9 +8588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21313.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21313.0</previous_real_reading>
@@ -8198,9 +8628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>53484.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>53484.0</previous_real_reading>
@@ -8236,9 +8668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>48490.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>48490.0</previous_real_reading>
@@ -8274,9 +8708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11390.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11390.0</previous_real_reading>
@@ -8312,9 +8748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>41779.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41779.0</previous_real_reading>
@@ -8350,9 +8788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>T31F 10(60)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8114.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8114.0</previous_real_reading>
@@ -8388,9 +8828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8061.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8061.0</previous_real_reading>
@@ -8426,9 +8868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>919.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>919.0</previous_real_reading>
@@ -8464,9 +8908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7092.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7092.0</previous_real_reading>
@@ -8502,9 +8948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>4672.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>4672.0</previous_real_reading>
@@ -8540,9 +8988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11986.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11986.0</previous_real_reading>
@@ -8578,9 +9028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>35933.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>35933.0</previous_real_reading>
@@ -8616,9 +9068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>28475.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>28475.0</previous_real_reading>
@@ -8654,9 +9108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20159.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20159.0</previous_real_reading>
@@ -8692,9 +9148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24124.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24124.0</previous_real_reading>
@@ -8730,9 +9188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16422.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16422.0</previous_real_reading>
@@ -8768,9 +9228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23041.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23041.0</previous_real_reading>
@@ -8806,9 +9268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10730.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10730.0</previous_real_reading>
@@ -8844,9 +9308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>40636.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>40636.0</previous_real_reading>
@@ -8882,9 +9348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15373.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15373.0</previous_real_reading>
@@ -8920,9 +9388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>25957.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>25957.0</previous_real_reading>
@@ -8958,9 +9428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>4813.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>4813.0</previous_real_reading>
@@ -8996,9 +9468,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -9034,9 +9508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9853.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9853.0</previous_real_reading>
@@ -9072,9 +9548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>30928.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>30928.0</previous_real_reading>
@@ -9110,9 +9588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20855.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20855.0</previous_real_reading>
@@ -9148,9 +9628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15945.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15945.0</previous_real_reading>
@@ -9186,9 +9668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3072.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3072.0</previous_real_reading>
@@ -9224,9 +9708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14147.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14147.0</previous_real_reading>
@@ -9262,9 +9748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22216.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22216.0</previous_real_reading>
@@ -9300,9 +9788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>28460.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>28460.0</previous_real_reading>
@@ -9338,9 +9828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6403.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6403.0</previous_real_reading>
@@ -9376,9 +9868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27163.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27163.0</previous_real_reading>
@@ -9414,9 +9908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32284.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32284.0</previous_real_reading>
@@ -9452,9 +9948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15279.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15279.0</previous_real_reading>
@@ -9490,9 +9988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32909.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32909.0</previous_real_reading>
@@ -9528,9 +10028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>35935.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>35935.0</previous_real_reading>
@@ -9566,9 +10068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7878.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7878.0</previous_real_reading>
@@ -9604,9 +10108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>29515.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>29515.0</previous_real_reading>
@@ -9642,9 +10148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27959.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27959.0</previous_real_reading>
@@ -9680,9 +10188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16777.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16777.0</previous_real_reading>
@@ -9718,9 +10228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>44043.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>44043.0</previous_real_reading>
@@ -9756,9 +10268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8296.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8296.0</previous_real_reading>
@@ -9794,9 +10308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19952.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19952.0</previous_real_reading>
@@ -9832,9 +10348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13810.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13810.0</previous_real_reading>
@@ -9870,9 +10388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3948.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3948.0</previous_real_reading>
@@ -9908,9 +10428,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -9946,9 +10468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22810.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22810.0</previous_real_reading>
@@ -9984,9 +10508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10954.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10954.0</previous_real_reading>
@@ -10022,9 +10548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1311.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1311.0</previous_real_reading>
@@ -10060,9 +10588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>61801.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>61801.0</previous_real_reading>
@@ -10098,9 +10628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14523.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14523.0</previous_real_reading>
@@ -10136,9 +10668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9737.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9737.0</previous_real_reading>
@@ -10174,9 +10708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>29500.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>29500.0</previous_real_reading>
@@ -10212,9 +10748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13169.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13169.0</previous_real_reading>
@@ -10250,9 +10788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>30883.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>30883.0</previous_real_reading>
@@ -10288,9 +10828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12870.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12870.0</previous_real_reading>
@@ -10326,9 +10868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12305.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12305.0</previous_real_reading>
@@ -10364,9 +10908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15221.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15221.0</previous_real_reading>
@@ -10402,9 +10948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>39747.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>39747.0</previous_real_reading>
@@ -10440,9 +10988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6252.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6252.0</previous_real_reading>
@@ -10478,9 +11028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23807.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23807.0</previous_real_reading>
@@ -10516,9 +11068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27444.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27444.0</previous_real_reading>
@@ -10554,9 +11108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>42493.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>42493.0</previous_real_reading>
@@ -10592,9 +11148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>45431.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>45431.0</previous_real_reading>
@@ -10630,9 +11188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>33564.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>33564.0</previous_real_reading>
@@ -10668,9 +11228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22670.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22670.0</previous_real_reading>
@@ -10706,9 +11268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12273.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12273.0</previous_real_reading>
@@ -10744,9 +11308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17621.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17621.0</previous_real_reading>
@@ -10782,9 +11348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>2330.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>2330.0</previous_real_reading>
@@ -10820,9 +11388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>20865.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>20865.0</previous_real_reading>
@@ -10858,9 +11428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8614.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8614.0</previous_real_reading>
@@ -10896,9 +11468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9981.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9981.0</previous_real_reading>
@@ -10934,9 +11508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32207.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32207.0</previous_real_reading>
@@ -10972,9 +11548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12785.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12785.0</previous_real_reading>
@@ -11010,9 +11588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21840.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21840.0</previous_real_reading>
@@ -11048,9 +11628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>34210.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>34210.0</previous_real_reading>
@@ -11086,9 +11668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24213.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24213.0</previous_real_reading>
@@ -11124,9 +11708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8485.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8485.0</previous_real_reading>
@@ -11162,9 +11748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>215.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>215.0</previous_real_reading>
@@ -11200,9 +11788,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -11238,9 +11828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9665.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9665.0</previous_real_reading>
@@ -11276,9 +11868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21207.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21207.0</previous_real_reading>
@@ -11314,9 +11908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12504.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12504.0</previous_real_reading>
@@ -11352,9 +11948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>19828.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>19828.0</previous_real_reading>
@@ -11390,9 +11988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11835.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11835.0</previous_real_reading>
@@ -11428,9 +12028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14614.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14614.0</previous_real_reading>
@@ -11466,9 +12068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15003.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15003.0</previous_real_reading>
@@ -11504,9 +12108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23259.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23259.0</previous_real_reading>
@@ -11542,9 +12148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23590.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23590.0</previous_real_reading>
@@ -11580,9 +12188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9931.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9931.0</previous_real_reading>
@@ -11618,9 +12228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8467.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8467.0</previous_real_reading>
@@ -11656,9 +12268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11858.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11858.0</previous_real_reading>
@@ -11694,9 +12308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6440.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6440.0</previous_real_reading>
@@ -11732,9 +12348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14460.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14460.0</previous_real_reading>
@@ -11770,9 +12388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13298.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13298.0</previous_real_reading>
@@ -11808,9 +12428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>5149.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>5149.0</previous_real_reading>
@@ -11846,9 +12468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7110.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7110.0</previous_real_reading>
@@ -11884,9 +12508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23485.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23485.0</previous_real_reading>
@@ -11922,9 +12548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21411.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21411.0</previous_real_reading>
@@ -11960,9 +12588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>52741.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>52741.0</previous_real_reading>
@@ -11998,9 +12628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10397.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10397.0</previous_real_reading>
@@ -12036,9 +12668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11848.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11848.0</previous_real_reading>
@@ -12074,9 +12708,11 @@
         <seal_status>0</seal_status>
         <digits>6</digits>
         <coeff>1</coeff>
+        <meter_type>T31FT 5(1-6)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15622.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15622.0</previous_real_reading>
@@ -12112,9 +12748,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11192.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11192.0</previous_real_reading>
@@ -12150,9 +12788,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32192.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32192.0</previous_real_reading>
@@ -12188,9 +12828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12062.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12062.0</previous_real_reading>
@@ -12226,9 +12868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>27759.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>27759.0</previous_real_reading>
@@ -12264,9 +12908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15371.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15371.0</previous_real_reading>
@@ -12302,9 +12948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12499.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12499.0</previous_real_reading>
@@ -12340,9 +12988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>13846.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>13846.0</previous_real_reading>
@@ -12378,9 +13028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>42517.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>42517.0</previous_real_reading>
@@ -12416,9 +13068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6208.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6208.0</previous_real_reading>
@@ -12454,9 +13108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>30626.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>30626.0</previous_real_reading>
@@ -12492,9 +13148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>18826.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>18826.0</previous_real_reading>
@@ -12530,9 +13188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>10587.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>10587.0</previous_real_reading>
@@ -12568,9 +13228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21535.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21535.0</previous_real_reading>
@@ -12606,9 +13268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>24146.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>24146.0</previous_real_reading>
@@ -12644,9 +13308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>32500.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>32500.0</previous_real_reading>
@@ -12682,9 +13348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>26269.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>26269.0</previous_real_reading>
@@ -12720,9 +13388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17084.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17084.0</previous_real_reading>
@@ -12758,9 +13428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>6707.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>6707.0</previous_real_reading>
@@ -12796,9 +13468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>22357.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>22357.0</previous_real_reading>
@@ -12834,9 +13508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8711.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8711.0</previous_real_reading>
@@ -12872,9 +13548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9943.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9943.0</previous_real_reading>
@@ -12910,9 +13588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>8434.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>8434.0</previous_real_reading>
@@ -12948,9 +13628,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17398.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17398.0</previous_real_reading>
@@ -12986,9 +13668,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>28186.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>28186.0</previous_real_reading>
@@ -13024,9 +13708,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15661.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15661.0</previous_real_reading>
@@ -13062,9 +13748,11 @@
         <seal_status>0</seal_status>
         <digits>6</digits>
         <coeff>1</coeff>
+        <meter_type>T31FT 5(1-6)A</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17476.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17476.0</previous_real_reading>
@@ -13100,9 +13788,11 @@
         <seal_status>0</seal_status>
         <digits>4</digits>
         <coeff>1</coeff>
+        <meter_type>არა</meter_type>
+        <without_meter>true</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>0.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>0.0</previous_real_reading>
@@ -13138,9 +13828,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>9730.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>9730.0</previous_real_reading>
@@ -13176,9 +13868,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17450.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17450.0</previous_real_reading>
@@ -13214,9 +13908,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>21592.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>21592.0</previous_real_reading>
@@ -13252,9 +13948,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>38346.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>38346.0</previous_real_reading>
@@ -13290,9 +13988,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15684.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15684.0</previous_real_reading>
@@ -13328,9 +14028,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>23814.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>23814.0</previous_real_reading>
@@ -13366,9 +14068,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11109.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11109.0</previous_real_reading>
@@ -13404,9 +14108,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>7466.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>7466.0</previous_real_reading>
@@ -13442,9 +14148,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>4754.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>4754.0</previous_real_reading>
@@ -13480,9 +14188,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>16592.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>16592.0</previous_real_reading>
@@ -13518,9 +14228,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>17344.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>17344.0</previous_real_reading>
@@ -13556,9 +14268,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>15601.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>15601.0</previous_real_reading>
@@ -13594,9 +14308,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>3742.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>3742.0</previous_real_reading>
@@ -13632,9 +14348,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12385.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12385.0</previous_real_reading>
@@ -13670,9 +14388,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>14380.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>14380.0</previous_real_reading>
@@ -13708,9 +14428,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>11534.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>11534.0</previous_real_reading>
@@ -13746,9 +14468,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>43305.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>43305.0</previous_real_reading>
@@ -13784,9 +14508,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>41646.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>41646.0</previous_real_reading>
@@ -13822,9 +14548,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>1223.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>1223.0</previous_real_reading>
@@ -13860,9 +14588,11 @@
         <seal_status>0</seal_status>
         <digits>5</digits>
         <coeff>1</coeff>
+        <meter_type>M2X 10/60</meter_type>
+        <without_meter>false</without_meter>
       </meter>
       <reading>
-        <reading/>
+        <reading>0.0</reading>
         <previous_reading>12.0</previous_reading>
         <previous_reading_date>01-Mar-2011</previous_reading_date>
         <previous_real_reading>12.0</previous_real_reading>

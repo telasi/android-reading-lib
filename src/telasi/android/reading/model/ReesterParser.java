@@ -41,6 +41,8 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_ITEM_METER_SEAL_STATUS = PATH_ITEM_METER + "/" + SEAL_STATUS;
   static final String PATH_ITEM_METER_DIGITS = PATH_ITEM_METER + "/" + DIGITS;
   static final String PATH_ITEM_METER_COEFF = PATH_ITEM_METER + "/" + COEFF;
+  static final String PATH_ITEM_METER_TYPE = PATH_ITEM_METER + "/" + METER_TYPE;
+  static final String PATH_ITEM_METER_WITHOUT = PATH_ITEM_METER + "/" + METER_WITHOUT;
   // reading
   static final String PATH_ITEM_READING = PATH_ITEM + "/" + READING;
   static final String PATH_ITEM_READING_CURR = PATH_ITEM_READING + "/" + READING_READING;
@@ -175,6 +177,10 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.item.getMeter().setDigits(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_METER_COEFF)) {
       this.item.getMeter().setCoeff(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_ITEM_METER_TYPE)) {
+      this.item.getMeter().setType(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_METER_WITHOUT)) {
+      this.item.getMeter().setWithout(Boolean.parseBoolean(xpp.getText()));
     }
     // item -> reading
     else if (this.address.equals(PATH_ITEM_READING_CURR)) {

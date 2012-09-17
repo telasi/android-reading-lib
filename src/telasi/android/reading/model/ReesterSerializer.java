@@ -74,6 +74,8 @@ class ReesterSerializer implements ReesterTags {
         addTag(xps, SEAL_STATUS, item.getMeter().isSealActive() ? 0 : 1);
         addTag(xps, DIGITS, item.getMeter().getDigits());
         addTag(xps, COEFF, item.getMeter().getCoeff());
+        addTag(xps, METER_TYPE, item.getMeter().getType());
+        addTag(xps, METER_WITHOUT, String.valueOf(item.getMeter().isWithout()));
         xps.endTag("", METER);
       }
 
