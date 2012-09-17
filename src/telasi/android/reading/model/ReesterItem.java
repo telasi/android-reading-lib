@@ -9,6 +9,35 @@ public class ReesterItem {
   private Meter meter;
   private Reading reading;
 
+  public boolean isReadingEntered() {
+    return this.getReading().getReading() > 0.0099;
+  }
+
+  public boolean isAboveMax() {
+    return this.isReadingEntered() && this.getCharge() > this.getAccount().getMaxCharge();
+  }
+
+  public boolean isBelowMin() {
+    return this.isReadingEntered() && this.getCharge() < this.getAccount().getMinCharge();
+  }
+
+  public boolean isSuspicious() {
+    return !isReadingEntered() || isAboveMax() || isBelowMin();
+  }
+
+  public double getCharge() {
+    if (isReadingEntered()) {
+      double r1 = getReading().getPreviousReading();
+      double r2 = getReading().getReading();
+      double coeff = getMeter().getCoeff();
+      double diff = Math.round(r2 * coeff) - Math.round(r1 * coeff);
+      if (diff < 0)
+        diff += Math.round(Math.pow(10, getMeter().getDigits()) * coeff);
+      return diff;
+    }
+    return 0;
+  }
+
   public Reading getReading() {
     return reading;
   }
