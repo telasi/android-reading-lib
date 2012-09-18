@@ -39,6 +39,7 @@ public interface ReesterTags {
   // reading
   static final String READING = "reading";
   static final String READING_READING = "reading";
+  static final String READING_CONFIRMED = "reading_confirmed";
   static final String PREVIOUS_READING = "previous_reading";
   static final String PREVIOUS_READING_DATE = "previous_reading_date";
   static final String PREVIOUS_REAL_READING = "previous_real_reading";

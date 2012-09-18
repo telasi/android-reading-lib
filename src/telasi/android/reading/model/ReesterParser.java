@@ -46,6 +46,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   // reading
   static final String PATH_ITEM_READING = PATH_ITEM + "/" + READING;
   static final String PATH_ITEM_READING_CURR = PATH_ITEM_READING + "/" + READING_READING;
+  static final String PATH_ITEM_READING_CONFIRMED = PATH_ITEM_READING + "/" + READING_CONFIRMED;
   static final String PATH_ITEM_READING_PREV = PATH_ITEM_READING + "/" + PREVIOUS_READING;
   static final String PATH_ITEM_READING_PREV_DATE = PATH_ITEM_READING + "/" + PREVIOUS_READING_DATE;
   static final String PATH_ITEM_READING_PREV_REAL = PATH_ITEM_READING + "/" + PREVIOUS_REAL_READING;
@@ -185,6 +186,8 @@ class ReesterParser implements ReesterTags, MessageTags {
     // item -> reading
     else if (this.address.equals(PATH_ITEM_READING_CURR)) {
       this.item.getReading().setReading(Double.parseDouble(xpp.getText()));
+    } else if (this.address.equals(PATH_ITEM_READING_CONFIRMED)) {
+      this.item.getReading().setReadingConfirmed(Boolean.parseBoolean(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_READING_PREV)) {
       this.item.getReading().setPreviousReading(Double.parseDouble(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_READING_PREV_DATE)) {

@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Reading {
   private double reading;
+  private boolean readingConfirmed;
   private double previousReading;
   private Date previousReadingDate;
   private double previousRealReading;
@@ -15,6 +16,14 @@ public class Reading {
 
   public void setReading(double reading) {
     this.reading = reading;
+  }
+
+  public boolean isReadingConfirmed() {
+    return readingConfirmed;
+  }
+
+  public void setReadingConfirmed(boolean readingConfirmed) {
+    this.readingConfirmed = readingConfirmed;
   }
 
   public double getPreviousReading() {

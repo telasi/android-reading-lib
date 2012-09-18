@@ -25,25 +25,26 @@ public class ReesterParserTest extends TestCase {
 
       Reester r = new ReesterParser().parse(xpp);
       assertNotNull(r);
-      assertEquals(1, r.getId());
+      assertEquals(69, r.getId());
       assertEquals(Config.parseDate("01-Jun-2012"), r.getCycleDate());
       assertEquals(11795, r.getInspectorId());
-      assertEquals(2, r.getDownloads());
-      assertEquals(1, r.getUploads());
-      assertEquals(1, r.getStatus());
+      assertEquals(4, r.getDownloads());
+      assertEquals(0, r.getUploads());
+      assertEquals(0, r.getStatus());
 
       ReesterItem[] items = r.getItems();
       assertEquals(365, items.length);
+
       ReesterItem item = items[0];
-      assertEquals(66953206, item.getId());
+      assertEquals(66970887, item.getId());
       assertEquals(4267, item.getRoute());
       assertEquals(1, item.getSequence());
       assertEquals(349201, item.getSchedule());
 
       Account acc = item.getAccount();
       assertNotNull(acc);
-      assertEquals(2, acc.getStatus());
-      assertTrue(acc.isCut());
+      assertEquals(0, acc.getStatus());
+      assertFalse(acc.isCut());
       assertEquals(268997, acc.getCustkey());
       assertEquals(269057, acc.getAcckey());
       assertEquals("3735159", acc.getAccountNumber());
@@ -68,9 +69,10 @@ public class ReesterParserTest extends TestCase {
 
       Reading reading = item.getReading();
       assertNotNull(reading);
+      assertTrue(reading.isReadingConfirmed());
       assertEquals(14439, reading.getReading(), 0.001);
       assertEquals(14239, reading.getPreviousReading(), 0.001);
-      assertEquals(Config.parseDate("01-Mar-2011"), reading.getPreviousReadingDate());
+      assertEquals(Config.parseDate("01-Jun-2012"), reading.getPreviousReadingDate());
       assertEquals(14239, reading.getPreviousRealReading(), 0.001);
       assertEquals(Config.parseDate("01-Mar-2011"), reading.getPreviousRealReadingDate());
     } finally {
