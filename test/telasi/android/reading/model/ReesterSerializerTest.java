@@ -105,6 +105,7 @@ public class ReesterSerializerTest extends TestCase {
       Reading rdn1 = item1.getReading();
       Reading rdn2 = item2.getReading();
       assertEquals(rdn1.getReading(), rdn2.getReading());
+      assertEquals(rdn1.isReadingConfirmed(), rdn2.isReadingConfirmed());
       assertEquals(rdn1.getPreviousReading(), rdn2.getPreviousReading());
       assertEquals(rdn1.getPreviousReadingDate(), rdn2.getPreviousReadingDate());
       assertEquals(rdn1.getPreviousRealReading(), rdn2.getPreviousRealReading());

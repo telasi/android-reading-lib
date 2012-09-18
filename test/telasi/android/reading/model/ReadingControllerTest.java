@@ -16,10 +16,15 @@ public class ReadingControllerTest extends TestCase {
     assertNotNull(reester);
     ReesterItem ri = reester.getItems()[0];
     ri.getReading().setReading(ri.getReading().getPreviousReading() + 200);
+    ri.getReading().setReadingConfirmed(true);
 
     Information info = ReadingController.sendReesterOverHTTP(reester, username, password);
     assertNotNull(info);
     assertEquals("რეესტრი ატვირთულია.", info.getMessage());
+    
+    /*XmlSerializer ser = XmlPullParserFactory.newInstance().newSerializer();
+    String text = new ReesterSerializer().reesterSerialization(ser, reester, false);
+    System.out.println(text);*/
   }
 
 }

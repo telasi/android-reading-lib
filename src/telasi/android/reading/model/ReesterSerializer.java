@@ -81,6 +81,7 @@ class ReesterSerializer implements ReesterTags {
 
       xps.startTag("", READING);
       addTag(xps, READING_READING, item.getReading().getReading());
+      addTag(xps, READING_CONFIRMED, String.valueOf(item.getReading().isReadingConfirmed()));
       if (full) {
         addTag(xps, PREVIOUS_READING, item.getReading().getPreviousReading());
         addTag(xps, PREVIOUS_READING_DATE, item.getReading().getPreviousReadingDate());
