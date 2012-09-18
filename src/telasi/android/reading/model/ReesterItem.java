@@ -9,6 +9,13 @@ public class ReesterItem {
   private Meter meter;
   private Reading reading;
 
+  public static double calculateCharge(double r1, double r2, double coeff, int digits) {
+    double diff = Math.round(r2 * coeff) - Math.round(r1 * coeff);
+    if (diff < 0)
+      diff += Math.round(Math.pow(10, digits) * coeff);
+    return diff;
+  }
+  
   public boolean isReadingEntered() {
     return this.getReading().getReading() > 0.0099;
   }
@@ -30,10 +37,8 @@ public class ReesterItem {
       double r1 = getReading().getPreviousReading();
       double r2 = getReading().getReading();
       double coeff = getMeter().getCoeff();
-      double diff = Math.round(r2 * coeff) - Math.round(r1 * coeff);
-      if (diff < 0)
-        diff += Math.round(Math.pow(10, getMeter().getDigits()) * coeff);
-      return diff;
+      int digits = getMeter().getDigits();
+      return ReesterItem.calculateCharge(r1, r2, coeff, digits);
     }
     return 0;
   }
