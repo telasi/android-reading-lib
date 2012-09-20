@@ -73,7 +73,10 @@ public class ReesterSerializerTest extends TestCase {
     assertEquals(reester1.getUploads(), reester2.getUploads());
     assertEquals(reester1.getStatus(), reester2.getStatus());
     assertEquals(reester1.getSchedule(), reester2.getSchedule());
-    // TODO: region, block
+    assertEquals(reester1.getBlockId(), reester2.getBlockId());
+    assertEquals(reester1.getBlockName(), reester2.getBlockName());
+    assertEquals(reester1.getRegionId(), reester2.getRegionId());
+    assertEquals(reester1.getRegionName(), reester2.getRegionName());
     assertEquals(reester1.getItems().length, reester2.getItems().length);    
     for (int i = 0; i < reester1.getItems().length; i++) {
       ReesterItem item1 = reester1.getItems()[i];
@@ -93,7 +96,15 @@ public class ReesterSerializerTest extends TestCase {
       assertEquals(acc1.getInstalledCapacity(), acc2.getInstalledCapacity());
       assertEquals(acc1.getMinCharge(), acc2.getMinCharge());
       assertEquals(acc1.getMaxCharge(), acc2.getMaxCharge());
-      // TODO: address
+      Address adr1 = acc1.getAddress();
+      Address adr2 = acc2.getAddress();
+      assertEquals(adr1.getFullAddress(), adr2.getFullAddress());
+      assertEquals(adr1.getStreetId(), adr2.getStreetId());
+      assertEquals(adr1.getStreetName(), adr2.getStreetName());
+      assertEquals(adr1.getHouse(), adr2.getHouse());
+      assertEquals(adr1.getBuilding(), adr2.getBuilding());
+      assertEquals(adr1.getPorch(), adr2.getPorch());
+      assertEquals(adr1.getFlate(), adr2.getFlate());
       Meter mtr1 = item1.getMeter();
       Meter mtr2 = item2.getMeter();
       assertEquals(mtr1.isActive(), mtr2.isActive());

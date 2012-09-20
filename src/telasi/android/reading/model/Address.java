@@ -1,7 +1,7 @@
 package telasi.android.reading.model;
 
 public class Address {
-  private int streeId;
+  private int streetId;
   private String streetName;
   private String house;
   private String building;
@@ -9,12 +9,12 @@ public class Address {
   private String flate;
   private String fullAddress;
 
-  public int getStreeId() {
-    return streeId;
+  public int getStreetId() {
+    return streetId;
   }
 
-  public void setStreeId(int streeId) {
-    this.streeId = streeId;
+  public void setStreetId(int streeId) {
+    this.streetId = streeId;
   }
 
   public String getStreetName() {

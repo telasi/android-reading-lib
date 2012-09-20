@@ -67,6 +67,16 @@ class ReesterSerializer implements ReesterTags {
         addTag(xps, ACCNUMB, item.getAccount().getAccountNumber());
         addTag(xps, ACCID, item.getAccount().getAccountID());
         addTag(xps, CUSTNAME, item.getAccount().getCustomerName());
+        Address addrs = item.getAccount().getAddress();
+        xps.startTag("", ADDRESS);
+        addTag(xps, FULL_ADDRESS, addrs.getFullAddress());
+        addTag(xps, STREET_ID, addrs.getStreetId());
+        addTag(xps, STREET_NAME, addrs.getStreetName());
+        addTag(xps, HOUSE, addrs.getHouse());
+        addTag(xps, BUILDING, addrs.getBuilding());
+        addTag(xps, PORCH, addrs.getPorch());
+        addTag(xps, FLATE, addrs.getFlate());
+        xps.endTag("", ADDRESS);
         xps.endTag("", ACCOUNT);
       }
 

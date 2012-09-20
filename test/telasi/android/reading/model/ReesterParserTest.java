@@ -55,7 +55,7 @@ public class ReesterParserTest extends TestCase {
       Address address = acc.getAddress();
       assertNotNull(address);
       assertEquals("0177, ნუცუბიძის ქ. კორპ. 1 №42, სად. 1, ბ. 001", address.getFullAddress());
-      assertEquals(361, address.getStreeId());
+      assertEquals(361, address.getStreetId());
       assertEquals("ნუცუბიძის ქ.", address.getStreetName());
       assertEquals("42", address.getHouse());
       assertEquals("1", address.getBuilding());

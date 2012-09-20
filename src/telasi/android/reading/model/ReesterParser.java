@@ -189,7 +189,7 @@ class ReesterParser implements ReesterTags, MessageTags {
     else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_FULL)) {
       this.item.getAccount().getAddress().setFullAddress(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_ID)) {
-      this.item.getAccount().getAddress().setStreeId(Integer.parseInt(xpp.getText()));
+      this.item.getAccount().getAddress().setStreetId(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_NAME)) {
       this.item.getAccount().getAddress().setStreetName(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_HOUSE)) {
