@@ -5,9 +5,19 @@ import java.util.Date;
 import java.util.List;
 
 public class Reester {
+  public static final int STATUS_INITIAL = 0;
+  public static final int STATUS_DOWNLOADED = 1;
+  public static final int STATUS_SENT = 2;
+  public static final int STATUS_SYNCED = 3;
+
   private int id;
   private Date cycleDate;
   private int inspectorId;
+  private int schedule;
+  private int blockId;
+  private String blockName;
+  private int regionId;
+  private String regionName;
   private int downloads;
   private int uploads;
   private int status;
@@ -56,6 +66,46 @@ public class Reester {
 
   public int getStatus() {
     return status;
+  }
+
+  public int getSchedule() {
+    return schedule;
+  }
+
+  public void setSchedule(int schedule) {
+    this.schedule = schedule;
+  }
+
+  public int getBlockId() {
+    return blockId;
+  }
+
+  public void setBlockId(int blockId) {
+    this.blockId = blockId;
+  }
+
+  public int getRegionId() {
+    return regionId;
+  }
+
+  public void setRegionId(int regionId) {
+    this.regionId = regionId;
+  }
+
+  public String getBlockName() {
+    return blockName;
+  }
+
+  public void setBlockName(String blockName) {
+    this.blockName = blockName;
+  }
+
+  public void setRegionName(String regionName) {
+    this.regionName = regionName;
+  }
+
+  public String getRegionName() {
+    return regionName;
   }
 
   public void setStatus(int status) {

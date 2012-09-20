@@ -15,13 +15,13 @@ public class Account {
   private double installedCapacity;
   private double minCharge;
   private double maxCharge;
-  private String address;
+  private Address address;
 
-  public String getAddress() {
+  public Address getAddress() {
     return address;
   }
 
-  public void setAddress(String address) {
+  public void setAddress(Address address) {
     this.address = address;
   }
 

@@ -72,13 +72,14 @@ public class ReesterSerializerTest extends TestCase {
     assertEquals(reester1.getDownloads(), reester2.getDownloads());
     assertEquals(reester1.getUploads(), reester2.getUploads());
     assertEquals(reester1.getStatus(), reester2.getStatus());
-    assertEquals(reester1.getItems().length, reester2.getItems().length);
+    assertEquals(reester1.getSchedule(), reester2.getSchedule());
+    // TODO: region, block
+    assertEquals(reester1.getItems().length, reester2.getItems().length);    
     for (int i = 0; i < reester1.getItems().length; i++) {
       ReesterItem item1 = reester1.getItems()[i];
       ReesterItem item2 = reester2.getItems()[i];
       assertEquals(item1.getId(), item2.getId());
       assertEquals(item1.getRoute(), item2.getRoute());
-      assertEquals(item1.getSchedule(), item2.getSchedule());
       assertEquals(item1.getSequence(), item2.getSequence());
       Account acc1 = item1.getAccount();
       Account acc2 = item2.getAccount();
@@ -92,6 +93,7 @@ public class ReesterSerializerTest extends TestCase {
       assertEquals(acc1.getInstalledCapacity(), acc2.getInstalledCapacity());
       assertEquals(acc1.getMinCharge(), acc2.getMinCharge());
       assertEquals(acc1.getMaxCharge(), acc2.getMaxCharge());
+      // TODO: address
       Meter mtr1 = item1.getMeter();
       Meter mtr2 = item2.getMeter();
       assertEquals(mtr1.isActive(), mtr2.isActive());

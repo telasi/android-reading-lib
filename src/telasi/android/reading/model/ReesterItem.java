@@ -3,7 +3,6 @@ package telasi.android.reading.model;
 public class ReesterItem {
   private int id;
   private int route;
-  private int schedule;
   private int sequence;
   private Account account;
   private Meter meter;
@@ -65,14 +64,6 @@ public class ReesterItem {
 
   public void setRoute(int routeKey) {
     this.route = routeKey;
-  }
-
-  public int getSchedule() {
-    return schedule;
-  }
-
-  public void setSchedule(int scheduleKey) {
-    this.schedule = scheduleKey;
   }
 
   public int getSequence() {

@@ -6,6 +6,11 @@ public interface ReesterTags {
   static final String REESTER_ID = "id";
   static final String CYCLE_DATE = "cycledate";
   static final String INSPECTOR = "inspector";
+  static final String SCHEDULE = "schedule";
+  static final String BLOCK_ID = "block_id";
+  static final String BLOCK_NAME = "block_name";
+  static final String REGION_ID = "region_id";
+  static final String REGION_NAME = "region_name";
   static final String DOWNLOADS = "downloads";
   static final String UPLOADS = "uploads";
   static final String REESTER_STATUS = "status";
@@ -15,7 +20,6 @@ public interface ReesterTags {
   static final String ITEM_ID = "id";
   static final String ROUTE = "route";
   static final String SEQUENCE = "sequence";
-  static final String SCHEDULE = "schedule";
   // account
   static final String ACCOUNT = "account";
   static final String ACCOUNT_STATUS = "status";
@@ -25,7 +29,15 @@ public interface ReesterTags {
   static final String ACCNUMB = "accnumb";
   static final String ACCID = "accid";
   static final String CUSTNAME = "custname";
+  // address
   static final String ADDRESS = "address";
+  static final String FULL_ADDRESS = "full_address";
+  static final String STREET_ID = "street_id";
+  static final String STREET_NAME = "street_name";
+  static final String HOUSE = "house";
+  static final String BUILDING = "building";
+  static final String PORCH = "porch";
+  static final String FLATE = "flate";
   // meter
   static final String METER = "meter";
   static final String METER_NUMBER = "number";

@@ -4,27 +4,30 @@ import junit.framework.TestCase;
 
 public class ReadingControllerTest extends TestCase {
 
-  // public void testLogin() throws Exception {
-  // User user = ReadingController.login("dimitri", "dima123");
-  // assertNotNull(user);
-  // }
+  public void testLogin() throws Exception {
+    // User user = ReadingController.login("dimitri", "dima123");
+    // assertNotNull(user);
+  }
 
   public void testSendReester() throws Exception {
-    String username = "dimitri";
-    String password = "dima123";
-    Reester reester = ReadingController.getReesterOverHTTP(username, password, "1-Jun-2012");
-    assertNotNull(reester);
-    ReesterItem ri = reester.getItems()[0];
-    ri.getReading().setReading(ri.getReading().getPreviousReading() + 200);
-    ri.getReading().setReadingConfirmed(true);
-
-    Information info = ReadingController.sendReesterOverHTTP(reester, username, password);
-    assertNotNull(info);
-    assertEquals("რეესტრი ატვირთულია.", info.getMessage());
-    
-    /*XmlSerializer ser = XmlPullParserFactory.newInstance().newSerializer();
-    String text = new ReesterSerializer().reesterSerialization(ser, reester, false);
-    System.out.println(text);*/
+    // String username = "dimitri";
+    // String password = "dima123";
+    // Reester reester = ReadingController.getReesterOverHTTP(username,
+    // password, "1-Jun-2012");
+    // assertNotNull(reester);
+    // ReesterItem ri = reester.getItems()[0];
+    // ri.getReading().setReading(ri.getReading().getPreviousReading() + 200);
+    // ri.getReading().setReadingConfirmed(true);
+    //
+    // Information info = ReadingController.sendReesterOverHTTP(reester,
+    // username, password);
+    // assertNotNull(info);
+    // assertEquals("რეესტრი ატვირთულია.", info.getMessage());
+    //
+    // /*XmlSerializer ser = XmlPullParserFactory.newInstance().newSerializer();
+    // String text = new ReesterSerializer().reesterSerialization(ser, reester,
+    // false);
+    // System.out.println(text);*/
   }
 
 }

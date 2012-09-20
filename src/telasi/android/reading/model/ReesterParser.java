@@ -14,6 +14,11 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
   static final String PATH_REESTER_CYCLEDATE = PATH_REESTER + "/" + CYCLE_DATE;
   static final String PATH_REESTER_INSPECTOR = PATH_REESTER + "/" + INSPECTOR;
+  static final String PATH_REESTER_SCHEDULE = PATH_REESTER + "/" + SCHEDULE;
+  static final String PATH_REESTER_BLOCK_ID = PATH_REESTER + "/" + BLOCK_ID;
+  static final String PATH_REESTER_BLOCK_NAME = PATH_REESTER + "/" + BLOCK_NAME;
+  static final String PATH_REESTER_REGION_ID = PATH_REESTER + "/" + REGION_ID;
+  static final String PATH_REESTER_REGION_NAME = PATH_REESTER + "/" + REGION_NAME;
   static final String PATH_REESTER_DOWNLOADS = PATH_REESTER + "/" + DOWNLOADS;
   static final String PATH_REESTER_UPLOADS = PATH_REESTER + "/" + UPLOADS;
   static final String PATH_REESTER_STATUS = PATH_REESTER + "/" + REESTER_STATUS;
@@ -22,7 +27,6 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_ITEM_ID = PATH_ITEM + "/" + ITEM_ID;
   static final String PATH_ITEM_ROUTE = PATH_ITEM + "/" + ROUTE;
   static final String PATH_ITEM_SEQUENCE = PATH_ITEM + "/" + SEQUENCE;
-  static final String PATH_ITEM_SCHEDULE = PATH_ITEM + "/" + SCHEDULE;
   // account
   static final String PATH_ITEM_ACCOUNT = PATH_ITEM + "/" + ACCOUNT;
   static final String PATH_ITEM_ACCOUNT_STATUS = PATH_ITEM_ACCOUNT + "/" + ACCOUNT_STATUS;
@@ -32,7 +36,15 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_ITEM_ACCOUNT_ACCNUMB = PATH_ITEM_ACCOUNT + "/" + ACCNUMB;
   static final String PATH_ITEM_ACCOUNT_ACCID = PATH_ITEM_ACCOUNT + "/" + ACCID;
   static final String PATH_ITEM_ACCOUNT_CUSTNAME = PATH_ITEM_ACCOUNT + "/" + CUSTNAME;
+  // addrss
   static final String PATH_ITEM_ACCOUNT_ADDRESS = PATH_ITEM_ACCOUNT + "/" + ADDRESS;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_FULL = PATH_ITEM_ACCOUNT_ADDRESS + "/" + FULL_ADDRESS;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_STREET_ID = PATH_ITEM_ACCOUNT_ADDRESS + "/" + STREET_ID;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_STREET_NAME = PATH_ITEM_ACCOUNT_ADDRESS + "/" + STREET_NAME;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_HOUSE = PATH_ITEM_ACCOUNT_ADDRESS + "/" + HOUSE;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_BUILDING = PATH_ITEM_ACCOUNT_ADDRESS + "/" + BUILDING;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_PORCH = PATH_ITEM_ACCOUNT_ADDRESS + "/" + PORCH;
+  static final String PATH_ITEM_ACCOUNT_ADDRESS_FLATE = PATH_ITEM_ACCOUNT_ADDRESS + "/" + FLATE;
   // meter
   static final String PATH_ITEM_METER = PATH_ITEM + "/" + METER;
   static final String PATH_ITEM_METER_NUMBER = PATH_ITEM_METER + "/" + METER_NUMBER;
@@ -109,6 +121,8 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.item.setMeter(new Meter());
     } else if (this.address.equals(PATH_ITEM_READING)) {
       this.item.setReading(new Reading());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS)) {
+      this.item.getAccount().setAddress(new Address());
     }
   }
 
@@ -130,6 +144,16 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.reester.setUploads(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_REESTER_STATUS)) {
       this.reester.setStatus(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_REESTER_SCHEDULE)) {
+      this.reester.setSchedule(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_REESTER_BLOCK_ID)) {
+      this.reester.setBlockId(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_REESTER_REGION_ID)) {
+      this.reester.setRegionId(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_REESTER_BLOCK_NAME)) {
+      this.reester.setBlockName(xpp.getText());
+    } else if (this.address.equals(PATH_REESTER_REGION_NAME)) {
+      this.reester.setRegionName(xpp.getText());
     }
     // item
     else if (this.address.equals(PATH_ITEM_ID)) {
@@ -138,8 +162,6 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.item.setRoute(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_SEQUENCE)) {
       this.item.setSequence(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_SCHEDULE)) {
-      this.item.setSchedule(Integer.parseInt(xpp.getText()));
     }
     // item -> account
     else if (this.address.equals(PATH_ITEM_ACCOUNT_STATUS)) {
@@ -156,14 +178,28 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.item.getAccount().setAccountID(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_ACCOUNT_CUSTNAME)) {
       this.item.getAccount().setCustomerName(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS)) {
-      this.item.getAccount().setAddress(xpp.getText());
     } else if (this.address.equals(PATH_ITEM_OTHER_INSCP)) {
       this.item.getAccount().setInstalledCapacity(Double.parseDouble(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_OTHER_MINCHARGE)) {
       this.item.getAccount().setMinCharge(Double.parseDouble(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_OTHER_MAXCHARGE)) {
       this.item.getAccount().setMaxCharge(Double.parseDouble(xpp.getText()));
+    }
+    // item -> account > address
+    else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_FULL)) {
+      this.item.getAccount().getAddress().setFullAddress(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_ID)) {
+      this.item.getAccount().getAddress().setStreeId(Integer.parseInt(xpp.getText()));
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_NAME)) {
+      this.item.getAccount().getAddress().setStreetName(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_HOUSE)) {
+      this.item.getAccount().getAddress().setHouse(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_BUILDING)) {
+      this.item.getAccount().getAddress().setBuilding(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_PORCH)) {
+      this.item.getAccount().getAddress().setPorch(xpp.getText());
+    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_FLATE)) {
+      this.item.getAccount().getAddress().setFlate(xpp.getText());
     }
     // item -> meter
     else if (this.address.equals(PATH_ITEM_METER_NUMBER)) {
