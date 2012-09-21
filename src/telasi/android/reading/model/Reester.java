@@ -2,6 +2,7 @@ package telasi.android.reading.model;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 public class Reester {
@@ -24,6 +25,16 @@ public class Reester {
   private int route;
   private ReesterItem[] items_ary = {};
   private List<ReesterItem> items = new ArrayList<ReesterItem>();
+
+  public HashMap<Integer, String> getStreets() {
+    HashMap<Integer, String> streets = new HashMap<Integer, String>();
+    for (ReesterItem item : getItems()) {
+      Address adrs = item.getAccount().getAddress();
+      if (streets.containsKey(adrs.getStreetId()))
+        streets.put(adrs.getStreetId(), adrs.getStreetName());
+    }
+    return streets;
+  }
 
   public int getId() {
     return id;
