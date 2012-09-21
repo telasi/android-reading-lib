@@ -32,14 +32,18 @@ public class ReesterParserTest extends TestCase {
       assertEquals(52, r.getUploads());
       assertEquals(2, r.getStatus());
       assertEquals(349201, r.getSchedule());
-      // TODO: block, region
+      assertEquals(11724, r.getRoute());
+      assertEquals(9, r.getRegionId());
+      assertEquals("დელისი", r.getRegionName());
+      assertEquals(523, r.getBlockId());
+      assertEquals("დელისი ბლ.1", r.getBlockName());
 
       ReesterItem[] items = r.getItems();
       assertEquals(265, items.length);
 
       ReesterItem item = items[0];
       assertEquals(66973867, item.getId());
-      assertEquals(11724, item.getRoute());
+
       assertEquals(1, item.getSequence());
 
       Account acc = item.getAccount();

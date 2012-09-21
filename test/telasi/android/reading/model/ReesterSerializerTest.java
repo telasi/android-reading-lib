@@ -77,12 +77,12 @@ public class ReesterSerializerTest extends TestCase {
     assertEquals(reester1.getBlockName(), reester2.getBlockName());
     assertEquals(reester1.getRegionId(), reester2.getRegionId());
     assertEquals(reester1.getRegionName(), reester2.getRegionName());
-    assertEquals(reester1.getItems().length, reester2.getItems().length);    
+    assertEquals(reester1.getItems().length, reester2.getItems().length);
+    assertEquals(reester1.getRoute(), reester2.getRoute());
     for (int i = 0; i < reester1.getItems().length; i++) {
       ReesterItem item1 = reester1.getItems()[i];
       ReesterItem item2 = reester2.getItems()[i];
       assertEquals(item1.getId(), item2.getId());
-      assertEquals(item1.getRoute(), item2.getRoute());
       assertEquals(item1.getSequence(), item2.getSequence());
       Account acc1 = item1.getAccount();
       Account acc2 = item2.getAccount();

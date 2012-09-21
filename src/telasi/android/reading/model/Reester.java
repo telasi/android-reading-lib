@@ -21,6 +21,7 @@ public class Reester {
   private int downloads;
   private int uploads;
   private int status;
+  private int route;
   private ReesterItem[] items_ary = {};
   private List<ReesterItem> items = new ArrayList<ReesterItem>();
 
@@ -30,6 +31,14 @@ public class Reester {
 
   public void setId(int id) {
     this.id = id;
+  }
+
+  public int getRoute() {
+    return route;
+  }
+
+  public void setRoute(int route) {
+    this.route = route;
   }
 
   public Date getCycleDate() {

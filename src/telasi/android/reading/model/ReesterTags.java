@@ -13,12 +13,12 @@ public interface ReesterTags {
   static final String REGION_NAME = "region_name";
   static final String DOWNLOADS = "downloads";
   static final String UPLOADS = "uploads";
+  static final String ROUTE = "route";
   static final String REESTER_STATUS = "status";
   // item/items
   static final String ITEMS = "items";
   static final String ITEM = "item";
   static final String ITEM_ID = "id";
-  static final String ROUTE = "route";
   static final String SEQUENCE = "sequence";
   // account
   static final String ACCOUNT = "account";

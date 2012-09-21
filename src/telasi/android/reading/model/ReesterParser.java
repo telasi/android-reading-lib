@@ -22,10 +22,10 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_REESTER_DOWNLOADS = PATH_REESTER + "/" + DOWNLOADS;
   static final String PATH_REESTER_UPLOADS = PATH_REESTER + "/" + UPLOADS;
   static final String PATH_REESTER_STATUS = PATH_REESTER + "/" + REESTER_STATUS;
+  static final String PATH_REESTER_ROUTE = PATH_REESTER + "/" + ROUTE;
   // items/item
   static final String PATH_ITEM = PATH_REESTER + "/" + ITEMS + "/" + ITEM;
   static final String PATH_ITEM_ID = PATH_ITEM + "/" + ITEM_ID;
-  static final String PATH_ITEM_ROUTE = PATH_ITEM + "/" + ROUTE;
   static final String PATH_ITEM_SEQUENCE = PATH_ITEM + "/" + SEQUENCE;
   // account
   static final String PATH_ITEM_ACCOUNT = PATH_ITEM + "/" + ACCOUNT;
@@ -154,12 +154,12 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.reester.setBlockName(xpp.getText());
     } else if (this.address.equals(PATH_REESTER_REGION_NAME)) {
       this.reester.setRegionName(xpp.getText());
-    }
+    } else if (this.address.equals(PATH_REESTER_ROUTE)) {
+      this.reester.setRoute(Integer.parseInt(xpp.getText()));
+    } 
     // item
     else if (this.address.equals(PATH_ITEM_ID)) {
       this.item.setId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_ROUTE)) {
-      this.item.setRoute(Integer.parseInt(xpp.getText()));
     } else if (this.address.equals(PATH_ITEM_SEQUENCE)) {
       this.item.setSequence(Integer.parseInt(xpp.getText()));
     }
