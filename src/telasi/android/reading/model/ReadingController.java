@@ -25,7 +25,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
 public class ReadingController {
-  public static String VERSION = "0.0.1.rc9";
+  public static String VERSION = "0.0.1.rc11";
 
   public static String getVersion() {
     return VERSION;

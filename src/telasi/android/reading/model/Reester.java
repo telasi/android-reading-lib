@@ -30,7 +30,7 @@ public class Reester {
     HashMap<Integer, String> streets = new HashMap<Integer, String>();
     for (ReesterItem item : getItems()) {
       Address adrs = item.getAccount().getAddress();
-      if (streets.containsKey(adrs.getStreetId()))
+      if (!streets.containsKey(adrs.getStreetId()))
         streets.put(adrs.getStreetId(), adrs.getStreetName());
     }
     return streets;

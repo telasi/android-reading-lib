@@ -2,6 +2,7 @@ package telasi.android.reading.model;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.HashMap;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -89,6 +90,13 @@ public class ReesterParserTest extends TestCase {
       assertEquals(Config.parseDate("01-Jun-2012"), reading.getPreviousReadingDate());
       assertEquals(14483, reading.getPreviousRealReading(), 0.001);
       assertEquals(Config.parseDate("01-Mar-2011"), reading.getPreviousRealReadingDate());
+
+      HashMap<Integer, String> streets = r.getStreets();
+      assertNotNull(streets);
+      assertFalse(streets.isEmpty());
+      assertEquals(1, streets.size());
+      assertEquals("ნუცუბიძის ქ.", streets.get(361));
+
     } finally {
       in.close();
     }
