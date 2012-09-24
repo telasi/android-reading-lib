@@ -51,13 +51,21 @@ public class ReadingController {
     String query = "?username=" + username + "&password=" + password;
     if (date != null)
       query += "&date=" + Config.formatDate(date);
-    URL url = new URL(Config.getReesterUrl() + query);
-    InputStream in = url.openStream();
-    return getReesterOverIO(in);
+    return getReesterOverHTTP(query);
   }
 
   public static Reester getReesterOverHTTP(String username, String password, String date) throws IOException, XmlPullParserException, ParseException, DownloadException {
     return getReesterOverHTTP(username, password, date == null ? null : Config.parseDate(date));
+  }
+
+  public static Reester getReesterOverHTTP(String username, String password, int routeId) throws IOException, XmlPullParserException, ParseException, DownloadException {
+    return getReesterOverHTTP("?username=" + username + "&password=" + password + "&id=" + routeId);
+  }
+  
+  private static Reester getReesterOverHTTP(String query) throws IOException, XmlPullParserException, ParseException, DownloadException {
+    URL url = new URL(Config.getReesterUrl() + query);
+    InputStream in = url.openStream();
+    return getReesterOverIO(in);
   }
 
   /*----------------------------------------------------------------------------------------------------*/
