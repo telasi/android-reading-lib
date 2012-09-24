@@ -1,5 +1,16 @@
 ## სერვისის გამოყენება
 
+### რეესტრის სიის მეღება
+
+რეესტრის სიის მიღება კონკრეტულ თანამშრომელზე არის შესაძლებელი შემდეგი მეთოდის გამოყენებით:
+
+```java
+String username = "dimitri";
+String password = "secret";
+int page = 2;
+List<Reester> reesters = ReadingController.getReestersOverHTTP(username, password, page);
+```
+
 ### რეესტრის მიღება
 
 რეესტრის მისაღება შესაძლებელია ვებ-სერვერიდან. ასეთ შემთხვევაში თქვენ უნდა იყოთ ავტორიზირებული
@@ -17,7 +28,6 @@ Reester reester = ReadingController.getReesterOverHTTP(username, password, date)
 მუშაობის პროცესში თქვენ შეგიძლიათ შეინახოთ რეესტრი ფაილში (იხ. ქვემოთ).
 რეესტრის ფაილიდან აღსადგენად გამოიყენეთ შემდეგი კოდი:
 
-
 ```java
 InputStream in = new FileInputStream("reester.xml");
 Reester reester = ReadingController.getReesterOverIO(in);
@@ -27,7 +37,7 @@ Reester reester = ReadingController.getReesterOverIO(in);
 
 ### რეესტრის ატვირთვა
 
-რეესტრის დამუშავების შემდეგ ის შეიძლება აიტვირთოს უკან ვებ-სერვერზე.
+რეესტრის დამუშავების შემდეგ ის უბრუნდება დასამუშავებლად ვებ-სერვერს.
 
 ```java
 String username = "dimitri";
@@ -44,6 +54,13 @@ OutputStream out = new FileOutputStream("reester.xml");
 ReadingController.saveReesterOverIO(reester, out);
 ```
 
-### რეესტრის შემოწმება
+### რეესტრის ჩანაწერების შემოწმება
 
-TODO: შესაძლებელია გაკეთება
+რეესტრის ჩანაწერების შემოწმება არის შესაძლებელი შემდეგი მეთოდების გამოყენებით:
+
+```java
+ReesterItem item = reester.getItems()[index]; // ჩანაწერის მიღება
+item.isReadingEntered(); // => ჩანაწერი შეტანილია
+item.isAboveMax(); // => მაქსიმალური ხარჯი გადაცილებულია
+item.isBelowMin(); // => მინიმალური ხარჯი ვერ შესრულდა
+```
