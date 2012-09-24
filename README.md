@@ -8,7 +8,8 @@
 String username = "dimitri";
 String password = "secret";
 int page = 2;
-List<Reester> reesters = ReadingController.getReestersOverHTTP(username, password, page);
+int inspectorId = 6967;
+List<Reester> reesters = ReadingController.getReestersOverHTTP(username, password, inspectorId, page);
 ```
 
 ### რეესტრის მიღება
