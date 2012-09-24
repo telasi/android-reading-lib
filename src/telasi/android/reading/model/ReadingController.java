@@ -62,6 +62,25 @@ public class ReadingController {
 
   /*----------------------------------------------------------------------------------------------------*/
 
+  public static List<Reester> getReestersOverIO(InputStream in) throws XmlPullParserException, IOException, ParseException, DownloadException {
+    try {
+      XmlPullParser xpp = createParser();
+      xpp.setInput(in, null);
+      return new ReesterParser().parseReesters(xpp);
+    } finally {
+      in.close();
+    }
+  }
+
+  public static Reester getReestersOverHTTP(int inspectorId, int page) throws IOException, XmlPullParserException, ParseException, DownloadException {
+    String query = "?perskey=" + inspectorId + "&page=" + page;
+    URL url = new URL(Config.getReesterUrl() + query);
+    InputStream in = url.openStream();
+    return getReesterOverIO(in);
+  }
+
+  /*----------------------------------------------------------------------------------------------------*/
+
   public static Information sendReesterOverHTTP(Reester reester, String username, String password) throws IOException, InformationException, XmlPullParserException, ParseException {
     XmlSerializer xps = getSerializer();
     HttpClient httpclient = new DefaultHttpClient();
