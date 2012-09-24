@@ -22,7 +22,7 @@ List<Reester> reesters = ReadingController.getReestersOverHTTP(username, passwor
 ```java
 String username = "dimitri";
 String password = "secret";
-String route_id = 80;
+int route_id = 80;
 Reester reester = ReadingController.getReesterOverHTTP(username, password, route_id);
 ```
 
