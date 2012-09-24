@@ -22,8 +22,8 @@ List<Reester> reesters = ReadingController.getReestersOverHTTP(username, passwor
 ```java
 String username = "dimitri";
 String password = "secret";
-String date = "21-Jun-2012";
-Reester reester = ReadingController.getReesterOverHTTP(username, password, date);
+String route_id = 80;
+Reester reester = ReadingController.getReesterOverHTTP(username, password, route_id);
 ```
 
 მუშაობის პროცესში თქვენ შეგიძლიათ შეინახოთ რეესტრი ფაილში (იხ. ქვემოთ).
