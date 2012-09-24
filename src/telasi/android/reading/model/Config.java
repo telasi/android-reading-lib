@@ -18,6 +18,10 @@ class Config {
     return getBaseUrl() + "android/readings/reester.xml";
   }
 
+  static String getReestersUrl() {
+    return getBaseUrl() + "android/readings/reester.xml";
+  }
+
   static String getReesterUploadUrl() {
     return getBaseUrl() + "android/readings/upload.xml";
   }
@@ -25,7 +29,7 @@ class Config {
   static String getLoginUrl() {
     return getBaseUrl() + "android/login.xml";
   }
-  
+
   static String formatDate(Date date) {
     return new SimpleDateFormat("d-MMM-yyyy", Locale.US).format(date);
   }

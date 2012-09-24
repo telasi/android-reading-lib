@@ -9,6 +9,8 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 class ReesterParser implements ReesterTags, MessageTags {
+  // reesters
+  static final String PATH_REESTERS = REESTERS;
   // reester
   static final String PATH_REESTER = REESTER;
   static final String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
@@ -23,6 +25,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_REESTER_UPLOADS = PATH_REESTER + "/" + UPLOADS;
   static final String PATH_REESTER_STATUS = PATH_REESTER + "/" + REESTER_STATUS;
   static final String PATH_REESTER_ROUTE = PATH_REESTER + "/" + ROUTE;
+  static final String PATH_REESTER_ITEM_COUNT = PATH_REESTER + "/" + ITEM_COUNT;
   // items/item
   static final String PATH_ITEM = PATH_REESTER + "/" + ITEMS + "/" + ITEM;
   static final String PATH_ITEM_ID = PATH_ITEM + "/" + ITEM_ID;
@@ -79,6 +82,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   private String address;
   private Error error;
   private List<String> path = new ArrayList<String>();
+  private List<Reester> reesters;
 
   Reester parse(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException, DownloadException {
     this.xpp = xpp;
@@ -87,6 +91,16 @@ class ReesterParser implements ReesterTags, MessageTags {
       throw new DownloadException(error.getMessage());
     } else {
       return this.reester;
+    }
+  }
+
+  List<Reester> parseReesters(XmlPullParser xpp) throws XmlPullParserException, IOException, ParseException, DownloadException {
+    this.xpp = xpp;
+    processDocument();
+    if (error != null) {
+      throw new DownloadException(error.getMessage());
+    } else {
+      return this.reesters;
     }
   }
 
@@ -99,6 +113,7 @@ class ReesterParser implements ReesterTags, MessageTags {
         changeAddress();
         onTagStart();
       } else if (eventType == XmlPullParser.END_TAG) {
+        onTagEnd();
         path.remove(path.size() - 1);
         changeAddress();
       } else if (eventType == XmlPullParser.TEXT && !xpp.isWhitespace()) {
@@ -108,129 +123,140 @@ class ReesterParser implements ReesterTags, MessageTags {
   }
 
   private void onTagStart() {
-    if (this.address.equals(PATH_ERROR)) {
+    if (this.address.endsWith(PATH_ERROR)) {
       this.error = new Error();
-    } else if (this.address.equals(PATH_REESTER)) {
+    } else if (this.address.endsWith(PATH_REESTERS)) {
+      this.reesters = new ArrayList<Reester>();
+    } else if (this.address.endsWith(PATH_REESTER)) {
       this.reester = new Reester();
-    } else if (this.address.equals(PATH_ITEM)) {
+    } else if (this.address.endsWith(PATH_ITEM)) {
       this.item = new ReesterItem();
       this.reester.addItem(item);
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT)) {
       this.item.setAccount(new Account());
-    } else if (this.address.equals(PATH_ITEM_METER)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER)) {
       this.item.setMeter(new Meter());
-    } else if (this.address.equals(PATH_ITEM_READING)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING)) {
       this.item.setReading(new Reading());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS)) {
       this.item.getAccount().setAddress(new Address());
+    }
+  }
+
+  private void onTagEnd() {
+    if (this.address.endsWith(PATH_REESTER)) {
+      if (this.reesters != null)
+        this.reesters.add(reester);
     }
   }
 
   private void onText() throws ParseException {
     // error
-    if (this.address.equals(PATH_ERROR_MESSAGE)) {
+    if (this.address.endsWith(PATH_ERROR_MESSAGE)) {
       this.error.setMessage(xpp.getText());
     }
     // reester
-    else if (this.address.equals(PATH_REESTER_ID)) {
+    else if (this.address.endsWith(PATH_REESTER_ID)) {
       this.reester.setId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_CYCLEDATE)) {
+    } else if (this.address.endsWith(PATH_REESTER_CYCLEDATE)) {
       this.reester.setCycleDate(Config.parseDate(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_INSPECTOR)) {
+    } else if (this.address.endsWith(PATH_REESTER_INSPECTOR)) {
       this.reester.setInspectorId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_DOWNLOADS)) {
+    } else if (this.address.endsWith(PATH_REESTER_DOWNLOADS)) {
       this.reester.setDownloads(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_UPLOADS)) {
+    } else if (this.address.endsWith(PATH_REESTER_UPLOADS)) {
       this.reester.setUploads(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_STATUS)) {
+    } else if (this.address.endsWith(PATH_REESTER_STATUS)) {
       this.reester.setStatus(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_SCHEDULE)) {
+    } else if (this.address.endsWith(PATH_REESTER_SCHEDULE)) {
       this.reester.setSchedule(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_BLOCK_ID)) {
+    } else if (this.address.endsWith(PATH_REESTER_BLOCK_ID)) {
       this.reester.setBlockId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_REGION_ID)) {
+    } else if (this.address.endsWith(PATH_REESTER_REGION_ID)) {
       this.reester.setRegionId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_REESTER_BLOCK_NAME)) {
+    } else if (this.address.endsWith(PATH_REESTER_BLOCK_NAME)) {
       this.reester.setBlockName(xpp.getText());
-    } else if (this.address.equals(PATH_REESTER_REGION_NAME)) {
+    } else if (this.address.endsWith(PATH_REESTER_REGION_NAME)) {
       this.reester.setRegionName(xpp.getText());
-    } else if (this.address.equals(PATH_REESTER_ROUTE)) {
+    } else if (this.address.endsWith(PATH_REESTER_ROUTE)) {
       this.reester.setRoute(Integer.parseInt(xpp.getText()));
-    } 
+    } else if (this.address.endsWith(PATH_REESTER_ITEM_COUNT)) {
+      this.reester.setCount(Integer.parseInt(xpp.getText()));
+    }
     // item
-    else if (this.address.equals(PATH_ITEM_ID)) {
+    else if (this.address.endsWith(PATH_ITEM_ID)) {
       this.item.setId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_SEQUENCE)) {
+    } else if (this.address.endsWith(PATH_ITEM_SEQUENCE)) {
       this.item.setSequence(Integer.parseInt(xpp.getText()));
     }
     // item -> account
-    else if (this.address.equals(PATH_ITEM_ACCOUNT_STATUS)) {
+    else if (this.address.endsWith(PATH_ITEM_ACCOUNT_STATUS)) {
       this.item.getAccount().setStatus(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_CUT)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_CUT)) {
       this.item.getAccount().setCut(Integer.parseInt(xpp.getText()) == 1);
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_CUSTKEY)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_CUSTKEY)) {
       this.item.getAccount().setCustkey(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ACCKEY)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ACCKEY)) {
       this.item.getAccount().setAcckey(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ACCNUMB)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ACCNUMB)) {
       this.item.getAccount().setAccountNumber(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ACCID)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ACCID)) {
       this.item.getAccount().setAccountID(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_CUSTNAME)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_CUSTNAME)) {
       this.item.getAccount().setCustomerName(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_OTHER_INSCP)) {
+    } else if (this.address.endsWith(PATH_ITEM_OTHER_INSCP)) {
       this.item.getAccount().setInstalledCapacity(Double.parseDouble(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_OTHER_MINCHARGE)) {
+    } else if (this.address.endsWith(PATH_ITEM_OTHER_MINCHARGE)) {
       this.item.getAccount().setMinCharge(Double.parseDouble(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_OTHER_MAXCHARGE)) {
+    } else if (this.address.endsWith(PATH_ITEM_OTHER_MAXCHARGE)) {
       this.item.getAccount().setMaxCharge(Double.parseDouble(xpp.getText()));
     }
     // item -> account > address
-    else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_FULL)) {
+    else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_FULL)) {
       this.item.getAccount().getAddress().setFullAddress(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_ID)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_STREET_ID)) {
       this.item.getAccount().getAddress().setStreetId(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_STREET_NAME)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_STREET_NAME)) {
       this.item.getAccount().getAddress().setStreetName(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_HOUSE)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_HOUSE)) {
       this.item.getAccount().getAddress().setHouse(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_BUILDING)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_BUILDING)) {
       this.item.getAccount().getAddress().setBuilding(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_PORCH)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_PORCH)) {
       this.item.getAccount().getAddress().setPorch(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_ACCOUNT_ADDRESS_FLATE)) {
+    } else if (this.address.endsWith(PATH_ITEM_ACCOUNT_ADDRESS_FLATE)) {
       this.item.getAccount().getAddress().setFlate(xpp.getText());
     }
     // item -> meter
-    else if (this.address.equals(PATH_ITEM_METER_NUMBER)) {
+    else if (this.address.endsWith(PATH_ITEM_METER_NUMBER)) {
       this.item.getMeter().setNumber(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_METER_STATUS)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_STATUS)) {
       this.item.getMeter().setActive(Integer.parseInt(xpp.getText()) == 0);
-    } else if (this.address.equals(PATH_ITEM_METER_SEAL)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_SEAL)) {
       this.item.getMeter().setSealNumber(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_METER_SEAL_STATUS)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_SEAL_STATUS)) {
       this.item.getMeter().setSealActive(Integer.parseInt(xpp.getText()) == 0);
-    } else if (this.address.equals(PATH_ITEM_METER_DIGITS)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_DIGITS)) {
       this.item.getMeter().setDigits(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_METER_COEFF)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_COEFF)) {
       this.item.getMeter().setCoeff(Integer.parseInt(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_METER_TYPE)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_TYPE)) {
       this.item.getMeter().setType(xpp.getText());
-    } else if (this.address.equals(PATH_ITEM_METER_WITHOUT)) {
+    } else if (this.address.endsWith(PATH_ITEM_METER_WITHOUT)) {
       this.item.getMeter().setWithout(Boolean.parseBoolean(xpp.getText()));
     }
     // item -> reading
-    else if (this.address.equals(PATH_ITEM_READING_CURR)) {
+    else if (this.address.endsWith(PATH_ITEM_READING_CURR)) {
       this.item.getReading().setReading(Double.parseDouble(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_READING_CONFIRMED)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING_CONFIRMED)) {
       this.item.getReading().setReadingConfirmed(Boolean.parseBoolean(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_READING_PREV)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING_PREV)) {
       this.item.getReading().setPreviousReading(Double.parseDouble(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_READING_PREV_DATE)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING_PREV_DATE)) {
       this.item.getReading().setPreviousReadingDate(Config.parseDate(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_READING_PREV_REAL)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING_PREV_REAL)) {
       this.item.getReading().setPreviousRealReading(Double.parseDouble(xpp.getText()));
-    } else if (this.address.equals(PATH_ITEM_READING_PREV_REAL_DATE)) {
+    } else if (this.address.endsWith(PATH_ITEM_READING_PREV_REAL_DATE)) {
       this.item.getReading().setPreviousRealReadingDate(Config.parseDate(xpp.getText()));
     }
   }
@@ -244,4 +270,5 @@ class ReesterParser implements ReesterTags, MessageTags {
     }
     this.address = b.toString().toLowerCase();
   }
+
 }

@@ -3,18 +3,12 @@ package telasi.android.reading.model;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
+
+import junit.framework.TestCase;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
-
-import telasi.android.reading.model.Account;
-import telasi.android.reading.model.Meter;
-import telasi.android.reading.model.Reading;
-import telasi.android.reading.model.Reester;
-import telasi.android.reading.model.ReesterItem;
-import telasi.android.reading.model.ReesterParser;
-
-import junit.framework.TestCase;
 
 public class ReesterParserTest extends TestCase {
 
@@ -38,6 +32,7 @@ public class ReesterParserTest extends TestCase {
       assertEquals("დელისი", r.getRegionName());
       assertEquals(523, r.getBlockId());
       assertEquals("დელისი ბლ.1", r.getBlockName());
+      assertEquals(265, r.getCount());
 
       ReesterItem[] items = r.getItems();
       assertEquals(265, items.length);
@@ -122,4 +117,23 @@ public class ReesterParserTest extends TestCase {
     }
   }
 
+  public void testParsingWithMultipleRoutes() throws Exception {
+    InputStream in = new FileInputStream("data/reesters.xml");
+    try {
+      XmlPullParser xpp = XmlPullParserFactory.newInstance().newPullParser();
+      xpp.setInput(in, null);
+      List<Reester> reesters = new ReesterParser().parseReesters(xpp);
+      assertFalse(reesters.isEmpty());
+      assertEquals(10, reesters.size());
+
+      Reester reester = reesters.get(0);
+
+      assertEquals(90, reester.getId());
+      assertEquals(9835, reester.getRoute());
+      assertEquals(181, reester.getBlockId());
+
+    } finally {
+      in.close();
+    }
+  }
 }

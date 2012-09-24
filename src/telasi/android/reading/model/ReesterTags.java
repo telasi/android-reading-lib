@@ -1,6 +1,8 @@
 package telasi.android.reading.model;
 
 public interface ReesterTags {
+  // reesters
+  static final String REESTERS = "reesters";
   // reester
   static final String REESTER = "reester";
   static final String REESTER_ID = "id";
@@ -15,6 +17,7 @@ public interface ReesterTags {
   static final String UPLOADS = "uploads";
   static final String ROUTE = "route";
   static final String REESTER_STATUS = "status";
+  static final String ITEM_COUNT = "count";
   // item/items
   static final String ITEMS = "items";
   static final String ITEM = "item";

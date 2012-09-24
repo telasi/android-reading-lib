@@ -23,6 +23,7 @@ public class Reester {
   private int uploads;
   private int status;
   private int route;
+  private int count;
   private ReesterItem[] items_ary = {};
   private List<ReesterItem> items = new ArrayList<ReesterItem>();
 
@@ -134,6 +135,14 @@ public class Reester {
 
   public ReesterItem[] getItems() {
     return items_ary;
+  }
+
+  public int getCount() {
+    return count;
+  }
+
+  public void setCount(int count) {
+    this.count = count;
   }
 
   public boolean addItem(ReesterItem item) {
