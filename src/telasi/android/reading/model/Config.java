@@ -19,7 +19,7 @@ class Config {
   }
 
   static String getReestersUrl() {
-    return getBaseUrl() + "android/readings/reester.xml";
+    return getBaseUrl() + "android/readings/reesters.xml";
   }
 
   static String getReesterUploadUrl() {

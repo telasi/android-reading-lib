@@ -25,7 +25,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
 public class ReadingController {
-  public static String VERSION = "0.0.1.rc12";
+  public static String VERSION = "0.0.1.rc13";
 
   public static String getVersion() {
     return VERSION;
@@ -82,7 +82,7 @@ public class ReadingController {
 
   public static List<Reester> getReestersOverHTTP(String username, String password, int inspectorId, int page) throws IOException, XmlPullParserException, ParseException, DownloadException {
     String query = "?username=" + username + "&password=" + password + "&perskey=" + inspectorId + "&page=" + page;
-    URL url = new URL(Config.getReesterUrl() + query);
+    URL url = new URL(Config.getReestersUrl() + query);
     InputStream in = url.openStream();
     return getReestersOverIO(in);
   }
