@@ -80,11 +80,11 @@ public class ReadingController {
     }
   }
 
-  public static Reester getReestersOverHTTP(String username, String password, int inspectorId, int page) throws IOException, XmlPullParserException, ParseException, DownloadException {
+  public static List<Reester> getReestersOverHTTP(String username, String password, int inspectorId, int page) throws IOException, XmlPullParserException, ParseException, DownloadException {
     String query = "?username=" + username + "&password=" + password + "&perskey=" + inspectorId + "&page=" + page;
     URL url = new URL(Config.getReesterUrl() + query);
     InputStream in = url.openStream();
-    return getReesterOverIO(in);
+    return getReestersOverIO(in);
   }
 
   /*----------------------------------------------------------------------------------------------------*/
