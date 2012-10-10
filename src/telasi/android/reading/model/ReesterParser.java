@@ -25,6 +25,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_REESTER_UPLOADS = PATH_REESTER + "/" + UPLOADS;
   static final String PATH_REESTER_STATUS = PATH_REESTER + "/" + REESTER_STATUS;
   static final String PATH_REESTER_ROUTE = PATH_REESTER + "/" + ROUTE;
+  static final String PATH_REESTER_ROUTE_NAME = PATH_REESTER + "/" + ROUTE_NAME;
   static final String PATH_REESTER_ITEM_COUNT = PATH_REESTER + "/" + ITEM_COUNT;
   // items/item
   static final String PATH_ITEM = PATH_REESTER + "/" + ITEMS + "/" + ITEM;
@@ -180,6 +181,8 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.reester.setRegionName(xpp.getText());
     } else if (this.address.endsWith(PATH_REESTER_ROUTE)) {
       this.reester.setRoute(Integer.parseInt(xpp.getText()));
+    } else if (this.address.endsWith(PATH_REESTER_ROUTE_NAME)) {
+      this.reester.setRouteName(xpp.getText());
     } else if (this.address.endsWith(PATH_REESTER_ITEM_COUNT)) {
       this.reester.setCount(Integer.parseInt(xpp.getText()));
     }

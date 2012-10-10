@@ -16,6 +16,7 @@ public interface ReesterTags {
   static final String DOWNLOADS = "downloads";
   static final String UPLOADS = "uploads";
   static final String ROUTE = "route";
+  static final String ROUTE_NAME = "route_name";
   static final String REESTER_STATUS = "status";
   static final String ITEM_COUNT = "count";
   // item/items

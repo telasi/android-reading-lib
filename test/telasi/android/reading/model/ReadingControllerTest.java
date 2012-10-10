@@ -12,6 +12,8 @@ public class ReadingControllerTest extends TestCase {
     int inspectorId = 11795;
     List<Reester> reester = ReadingController.getReestersOverHTTP(username, password, inspectorId, 1);
     assertNotNull(reester);
+    // route name
+    String rtname = reester.get(0).getRouteName();
+    assertNotNull(rtname);
   }
-
 }

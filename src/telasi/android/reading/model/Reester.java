@@ -23,6 +23,7 @@ public class Reester {
   private int uploads;
   private int status;
   private int route;
+  private String routeName;
   private int count;
   private ReesterItem[] items_ary = {};
   private List<ReesterItem> items = new ArrayList<ReesterItem>();
@@ -51,6 +52,14 @@ public class Reester {
 
   public void setRoute(int route) {
     this.route = route;
+  }
+
+  public String getRouteName() {
+    return routeName;
+  }
+
+  public void setRouteName(String routeName) {
+    this.routeName = routeName;
   }
 
   public Date getCycleDate() {

@@ -28,6 +28,7 @@ public class ReesterParserTest extends TestCase {
       assertEquals(2, r.getStatus());
       assertEquals(349201, r.getSchedule());
       assertEquals(11724, r.getRoute());
+      assertEquals("დიდუბე ბლ.20 მარშ. 2", r.getRouteName());
       assertEquals(9, r.getRegionId());
       assertEquals("დელისი", r.getRegionName());
       assertEquals(523, r.getBlockId());
@@ -128,9 +129,10 @@ public class ReesterParserTest extends TestCase {
 
       Reester reester = reesters.get(0);
 
-      assertEquals(90, reester.getId());
-      assertEquals(9835, reester.getRoute());
-      assertEquals(181, reester.getBlockId());
+      assertEquals(96, reester.getId());
+      assertEquals(12024, reester.getRoute());
+      assertEquals(200, reester.getBlockId());
+      assertEquals("დიდუბე ბლ.20 მარშ. 2", reester.getRouteName());
 
     } finally {
       in.close();

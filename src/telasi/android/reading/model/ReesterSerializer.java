@@ -47,6 +47,7 @@ class ReesterSerializer implements ReesterTags {
       addTag(xps, BLOCK_ID, reester.getBlockId());
       addTag(xps, BLOCK_NAME, reester.getBlockName());
       addTag(xps, ROUTE, reester.getRoute());
+      addTag(xps, ROUTE_NAME, reester.getRouteName());
       addTag(xps, ITEM_COUNT, reester.getCount());
     }
     // items
