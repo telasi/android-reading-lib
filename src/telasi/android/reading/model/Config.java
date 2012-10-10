@@ -8,10 +8,29 @@ import java.util.Locale;
 /**
  * ეს კლასი გამოიყენება კონფიგურაციის მონაცემების მისაღებად.
  */
-class Config {
+public class Config {
+
+  private static String connection_host = "1.1.7.160";
+  private static String connection_port = "3000";
+
+  public static void setHost(String host) {
+    connection_host = host;
+  }
+
+  public static void setPort(String port) {
+    connection_port = port;
+  }
+
+  public static String getHost() {
+    return connection_host;
+  }
+
+  public static String getPort() {
+    return connection_port;
+  }
 
   static String getBaseUrl() {
-    return "http://192.168.1.11:3000/";
+    return "http://" + connection_host + ":" + connection_port + "/";
   }
 
   static String getReesterUrl() {
