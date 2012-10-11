@@ -16,6 +16,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_REESTER_ID = PATH_REESTER + "/" + REESTER_ID;
   static final String PATH_REESTER_CYCLEDATE = PATH_REESTER + "/" + CYCLE_DATE;
   static final String PATH_REESTER_INSPECTOR = PATH_REESTER + "/" + INSPECTOR;
+  static final String PATH_REESTER_INSPECTOR_NAME = PATH_REESTER + "/" + INSPECTOR_NAME;
   static final String PATH_REESTER_SCHEDULE = PATH_REESTER + "/" + SCHEDULE;
   static final String PATH_REESTER_BLOCK_ID = PATH_REESTER + "/" + BLOCK_ID;
   static final String PATH_REESTER_BLOCK_NAME = PATH_REESTER + "/" + BLOCK_NAME;
@@ -163,6 +164,8 @@ class ReesterParser implements ReesterTags, MessageTags {
       this.reester.setCycleDate(Config.parseDate(xpp.getText()));
     } else if (this.address.endsWith(PATH_REESTER_INSPECTOR)) {
       this.reester.setInspectorId(Integer.parseInt(xpp.getText()));
+    } else if (this.address.endsWith(PATH_REESTER_INSPECTOR_NAME)) {
+      this.reester.setInspectorName(xpp.getText());
     } else if (this.address.endsWith(PATH_REESTER_DOWNLOADS)) {
       this.reester.setDownloads(Integer.parseInt(xpp.getText()));
     } else if (this.address.endsWith(PATH_REESTER_UPLOADS)) {

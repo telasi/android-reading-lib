@@ -8,6 +8,7 @@ public interface ReesterTags {
   static final String REESTER_ID = "id";
   static final String CYCLE_DATE = "cycledate";
   static final String INSPECTOR = "inspector";
+  static final String INSPECTOR_NAME = "inspector_name";
   static final String SCHEDULE = "schedule";
   static final String BLOCK_ID = "block_id";
   static final String BLOCK_NAME = "block_name";

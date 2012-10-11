@@ -38,6 +38,7 @@ class ReesterSerializer implements ReesterTags {
     if (full) {
       addTag(xps, CYCLE_DATE, reester.getCycleDate());
       addTag(xps, INSPECTOR, reester.getInspectorId());
+      addTag(xps, INSPECTOR_NAME, reester.getInspectorName());
       addTag(xps, DOWNLOADS, reester.getDownloads());
       addTag(xps, UPLOADS, reester.getUploads());
       addTag(xps, REESTER_STATUS, reester.getStatus());

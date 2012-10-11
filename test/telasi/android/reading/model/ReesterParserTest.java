@@ -23,6 +23,7 @@ public class ReesterParserTest extends TestCase {
       assertEquals(80, r.getId());
       assertEquals(Config.parseDate("01-Jun-2012"), r.getCycleDate());
       assertEquals(11795, r.getInspectorId());
+      assertEquals("ჯოჯუა ლევანი", r.getInspectorName());
       assertEquals(99, r.getDownloads());
       assertEquals(52, r.getUploads());
       assertEquals(2, r.getStatus());
@@ -133,6 +134,7 @@ public class ReesterParserTest extends TestCase {
       assertEquals(12024, reester.getRoute());
       assertEquals(200, reester.getBlockId());
       assertEquals("დიდუბე ბლ.20 მარშ. 2", reester.getRouteName());
+      assertEquals("ჯოჯუა ლევანი", reester.getInspectorName());
 
     } finally {
       in.close();

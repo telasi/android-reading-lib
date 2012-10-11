@@ -69,6 +69,7 @@ public class ReesterSerializerTest extends TestCase {
     assertEquals(reester1.getId(), reester2.getId());
     assertEquals(reester1.getCycleDate(), reester2.getCycleDate());
     assertEquals(reester1.getInspectorId(), reester2.getInspectorId());
+    assertEquals(reester1.getInspectorName(), reester2.getInspectorName());
     assertEquals(reester1.getDownloads(), reester2.getDownloads());
     assertEquals(reester1.getUploads(), reester2.getUploads());
     assertEquals(reester1.getStatus(), reester2.getStatus());

@@ -14,6 +14,7 @@ public class Reester {
   private int id;
   private Date cycleDate;
   private int inspectorId;
+  private String inspectorName;
   private int schedule;
   private int blockId;
   private String blockName;
@@ -76,6 +77,14 @@ public class Reester {
 
   public void setInspectorId(int inspectorId) {
     this.inspectorId = inspectorId;
+  }
+
+  public String getInspectorName() {
+    return inspectorName;
+  }
+
+  public void setInspectorName(String inspectorName) {
+    this.inspectorName = inspectorName;
   }
 
   public int getDownloads() {

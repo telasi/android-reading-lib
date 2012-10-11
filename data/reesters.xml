@@ -1,162 +1,173 @@
+
 <reesters>
   <reester>
-    <id>96</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349467</schedule>
-    <route>12024</route>
-    <route_name>დიდუბე ბლ.20 მარშ. 2</route_name>
-    <inspector>11635</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>8</downloads>
-    <uploads>6</uploads>
-    <status>2</status>
-    <count>273</count>
+<id>96</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349467</schedule>
+<route>12024</route>
+<route_name>დიდუბე ბლ.20 მარშ. 2</route_name>
+<inspector>11635</inspector>
+<inspector_name>ჯოჯუა ლევანი</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>8</downloads>
+<uploads>6</uploads>
+<status>2</status>
+<count>273</count>
   </reester>
   <reester>
-    <id>95</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349465</schedule>
-    <route>10196</route>
-    <route_name>დიდუბე ბლ.20 მარშ. 6 სატრ.ჯიხ.</route_name>
-    <inspector>150</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>30</downloads>
-    <uploads>1</uploads>
-    <status>3</status>
-    <count>58</count>
+<id>95</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349465</schedule>
+<route>10196</route>
+<route_name>დიდუბე ბლ.20 მარშ. 6 სატრ.ჯიხ.</route_name>
+<inspector>150</inspector>
+<inspector_name>სეხნიაშვილი ზაზა</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>30</downloads>
+<uploads>1</uploads>
+<status>3</status>
+<count>58</count>
   </reester>
   <reester>
-    <id>94</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349464</schedule>
-    <route>10195</route>
-    <route_name>დიდუბე ბლ.20 მარშ. 5 ცენტრი</route_name>
-    <inspector>2081</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>5</downloads>
-    <uploads>2</uploads>
-    <status>2</status>
-    <count>9</count>
+<id>94</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349464</schedule>
+<route>10195</route>
+<route_name>დიდუბე ბლ.20 მარშ. 5 ცენტრი</route_name>
+<inspector>2081</inspector>
+<inspector_name>შიუკაშვილი გიორგი</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>5</downloads>
+<uploads>2</uploads>
+<status>2</status>
+<count>9</count>
   </reester>
   <reester>
-    <id>93</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349463</schedule>
-    <route>10194</route>
-    <route_name>დიდუბე ბლ.20 მარშ. 4 ორგანიზ.</route_name>
-    <inspector>1866</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>5</downloads>
-    <uploads>1</uploads>
-    <status>3</status>
-    <count>281</count>
+<id>93</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349463</schedule>
+<route>10194</route>
+<route_name>დიდუბე ბლ.20 მარშ. 4 ორგანიზ.</route_name>
+<inspector>1866</inspector>
+<inspector_name>იანტბელიძე   მზია</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>5</downloads>
+<uploads>1</uploads>
+<status>3</status>
+<count>281</count>
   </reester>
   <reester>
-    <id>92</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349462</schedule>
-    <route>10191</route>
-    <route_name>დიდუბე ბლ.20 მარშ. 1</route_name>
-    <inspector>7488</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>6</downloads>
-    <uploads>1</uploads>
-    <status>3</status>
-    <count>372</count>
+<id>92</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349462</schedule>
+<route>10191</route>
+<route_name>დიდუბე ბლ.20 მარშ. 1</route_name>
+<inspector>7488</inspector>
+<inspector_name>ჩოხელი ლევანი</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>6</downloads>
+<uploads>1</uploads>
+<status>3</status>
+<count>372</count>
   </reester>
   <reester>
-    <id>91</id>
-    <cycledate>28-Sep-2012</cycledate>
-    <schedule>349461</schedule>
-    <route>10002</route>
-    <route_name>დიდუბე ბლ20.მარშ.01 მეტროს ქვეაბონ.</route_name>
-    <inspector>6967</inspector>
-    <block_id>200</block_id>
-    <block_name>დიდუბე ბლ.20</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>10</downloads>
-    <uploads>1</uploads>
-    <status>3</status>
-    <count>6</count>
+<id>91</id>
+<cycledate>28-Sep-2012</cycledate>
+<schedule>349461</schedule>
+<route>10002</route>
+<route_name>დიდუბე ბლ20.მარშ.01 მეტროს ქვეაბონ.</route_name>
+<inspector>6967</inspector>
+<inspector_name>ჭყონია ბექა</inspector_name>
+<block_id>200</block_id>
+<block_name>დიდუბე ბლ.20</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>10</downloads>
+<uploads>1</uploads>
+<status>3</status>
+<count>6</count>
   </reester>
   <reester>
-    <id>90</id>
-    <cycledate>01-Jun-2012</cycledate>
-    <schedule/>
-    <route>9835</route>
-    <route_name>დიდუბე ბლ.1 მარშ.8ცენტრალური</route_name>
-    <inspector>6967</inspector>
-    <block_id>181</block_id>
-    <block_name>დიდუბე ბლ.1</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>0</downloads>
-    <uploads>0</uploads>
-    <status>0</status>
-    <count>2</count>
+<id>90</id>
+<cycledate>01-Jun-2012</cycledate>
+<schedule/>
+<route>9835</route>
+<route_name>დიდუბე ბლ.1 მარშ.8ცენტრალური</route_name>
+<inspector>6967</inspector>
+<inspector_name>ჭყონია ბექა</inspector_name>
+<block_id>181</block_id>
+<block_name>დიდუბე ბლ.1</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>0</downloads>
+<uploads>0</uploads>
+<status>0</status>
+<count>2</count>
   </reester>
   <reester>
-    <id>89</id>
-    <cycledate>01-Jun-2012</cycledate>
-    <schedule/>
-    <route>9237</route>
-    <route_name>დიდუბე ბლ.1 მარშ.9 სატრ.ჯიხურ.</route_name>
-    <inspector>5445</inspector>
-    <block_id>181</block_id>
-    <block_name>დიდუბე ბლ.1</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>0</downloads>
-    <uploads>0</uploads>
-    <status>0</status>
-    <count>17</count>
+<id>89</id>
+<cycledate>01-Jun-2012</cycledate>
+<schedule/>
+<route>9237</route>
+<route_name>დიდუბე ბლ.1 მარშ.9 სატრ.ჯიხურ.</route_name>
+<inspector>5445</inspector>
+<inspector_name>ჯმუხაძე თინა</inspector_name>
+<block_id>181</block_id>
+<block_name>დიდუბე ბლ.1</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>0</downloads>
+<uploads>0</uploads>
+<status>0</status>
+<count>17</count>
   </reester>
   <reester>
-    <id>88</id>
-    <cycledate>01-Jun-2012</cycledate>
-    <schedule/>
-    <route>7758</route>
-    <route_name>დიდუბე ბლ.1 მარშ.6</route_name>
-    <inspector>11636</inspector>
-    <block_id>181</block_id>
-    <block_name>დიდუბე ბლ.1</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>0</downloads>
-    <uploads>0</uploads>
-    <status>0</status>
-    <count>314</count>
+<id>88</id>
+<cycledate>01-Jun-2012</cycledate>
+<schedule/>
+<route>7758</route>
+<route_name>დიდუბე ბლ.1 მარშ.6</route_name>
+<inspector>11636</inspector>
+<inspector_name>ოქიტაშვილი მურმანი</inspector_name>
+<block_id>181</block_id>
+<block_name>დიდუბე ბლ.1</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>0</downloads>
+<uploads>0</uploads>
+<status>0</status>
+<count>314</count>
   </reester>
   <reester>
-    <id>87</id>
-    <cycledate>01-Jun-2012</cycledate>
-    <schedule/>
-    <route>7757</route>
-    <route_name>დიდუბე ბლ.1 მარშ.5</route_name>
-    <inspector>11635</inspector>
-    <block_id>181</block_id>
-    <block_name>დიდუბე ბლ.1</block_name>
-    <region_id>2</region_id>
-    <region_name>დიდუბე</region_name>
-    <downloads>0</downloads>
-    <uploads>0</uploads>
-    <status>0</status>
-    <count>253</count>
+<id>87</id>
+<cycledate>01-Jun-2012</cycledate>
+<schedule/>
+<route>7757</route>
+<route_name>დიდუბე ბლ.1 მარშ.5</route_name>
+<inspector>11635</inspector>
+<inspector_name>ჯოჯუა ლევანი</inspector_name>
+<block_id>181</block_id>
+<block_name>დიდუბე ბლ.1</block_name>
+<region_id>2</region_id>
+<region_name>დიდუბე</region_name>
+<downloads>0</downloads>
+<uploads>0</uploads>
+<status>0</status>
+<count>253</count>
   </reester>
 </reesters>
