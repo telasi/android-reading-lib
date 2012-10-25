@@ -9,6 +9,9 @@ public class Meter {
   private int coeff;
   private String type;
   private boolean without;
+  private String newNumber;
+  private String newSealNumber;
+  private Integer newCoeff;
 
   public String getType() {
     return type;
@@ -72,6 +75,30 @@ public class Meter {
 
   public void setCoeff(int coeff) {
     this.coeff = coeff;
+  }
+
+  public String getNewNumber() {
+    return newNumber;
+  }
+
+  public void setNewNumber(String newNumber) {
+    this.newNumber = newNumber;
+  }
+
+  public String getNewSealNumber() {
+    return newSealNumber;
+  }
+
+  public void setNewSealNumber(String newSealNumber) {
+    this.newSealNumber = newSealNumber;
+  }
+
+  public Integer getNewCoeff() {
+    return newCoeff;
+  }
+
+  public void setNewCoeff(Integer newCoeff) {
+    this.newCoeff = newCoeff;
   }
 
 }

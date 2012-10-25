@@ -23,13 +23,13 @@ public class ReesterParserTest extends TestCase {
       assertEquals(80, r.getId());
       assertEquals(Config.parseDate("01-Jun-2012"), r.getCycleDate());
       assertEquals(11795, r.getInspectorId());
-      assertEquals("ჯოჯუა ლევანი", r.getInspectorName());
+      assertEquals("გოცირიძე ირმა", r.getInspectorName());
       assertEquals(99, r.getDownloads());
       assertEquals(52, r.getUploads());
       assertEquals(2, r.getStatus());
       assertEquals(349201, r.getSchedule());
       assertEquals(11724, r.getRoute());
-      assertEquals("დიდუბე ბლ.20 მარშ. 2", r.getRouteName());
+      assertEquals("დელისი ბლ.01 მარშ.06-2", r.getRouteName());
       assertEquals(9, r.getRegionId());
       assertEquals("დელისი", r.getRegionName());
       assertEquals(523, r.getBlockId());
@@ -56,7 +56,7 @@ public class ReesterParserTest extends TestCase {
 
       Address address = acc.getAddress();
       assertNotNull(address);
-      assertEquals("0177, ნუცუბიძის ქ. კორპ. 1 №42, სად. 1, ბ. 001", address.getFullAddress());
+      assertEquals("0177, ნუცუბიძის ქ. №42 კორპ. 1, სად. 1, ბ. 001", address.getFullAddress());
       assertEquals(361, address.getStreetId());
       assertEquals("ნუცუბიძის ქ.", address.getStreetName());
       assertEquals("42", address.getHouse());

@@ -53,6 +53,9 @@ public interface ReesterTags {
   static final String COEFF = "coeff";
   static final String METER_TYPE = "meter_type";
   static final String METER_WITHOUT = "without_meter";
+  static final String NEW_METER_NUMBER = "new_number";
+  static final String NEW_SEAL_NUMBER = "new_seal_number";
+  static final String NEW_COEFF = "new_coeff";
   // reading
   static final String READING = "reading";
   static final String READING_READING = "reading";
