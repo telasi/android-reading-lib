@@ -78,6 +78,9 @@ public class ReesterParserTest extends TestCase {
       assertEquals(1, meter.getCoeff());
       assertEquals("M2X 10/60", meter.getType());
       assertFalse(meter.isWithout());
+      assertEquals("172088-1", meter.getNewNumber());
+      assertEquals(10, meter.getNewCoeff().intValue());
+      assertEquals("ABC123", meter.getNewSealNumber());
 
       Reading reading = item.getReading();
       assertNotNull(reading);

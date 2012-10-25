@@ -45,9 +45,9 @@
         <coeff>1</coeff>
         <meter_type>M2X 10/60</meter_type>
         <without_meter>false</without_meter>
-        <new_number/>
-        <new_coeff/>
-        <new_seal_number/>
+        <new_number>172088-1</new_number>
+        <new_coeff>10</new_coeff>
+        <new_seal_number>ABC123</new_seal_number>
       </meter>
       <reading>
         <reading>432123</reading>
