@@ -83,8 +83,14 @@ class ReesterSerializer implements ReesterTags {
         xps.endTag("", ACCOUNT);
       }
 
+      xps.startTag("", METER);
+      if (item.getMeter() != null) {
+        Integer newCoeff = item.getMeter().getNewCoeff();
+        addTag(xps, NEW_METER_NUMBER, item.getMeter().getNewNumber());
+        addTag(xps, NEW_COEFF, newCoeff != null ? newCoeff.toString() : null );
+        addTag(xps, NEW_SEAL_NUMBER, item.getMeter().getNewSealNumber());
+      }
       if (full) {
-        xps.startTag("", METER);
         addTag(xps, METER_NUMBER, item.getMeter().getNumber());
         addTag(xps, METER_STATUS, item.getMeter().isActive() ? 0 : 1);
         addTag(xps, SEAL_NUMBER, item.getMeter().getSealNumber());
@@ -93,8 +99,8 @@ class ReesterSerializer implements ReesterTags {
         addTag(xps, COEFF, item.getMeter().getCoeff());
         addTag(xps, METER_TYPE, item.getMeter().getType());
         addTag(xps, METER_WITHOUT, String.valueOf(item.getMeter().isWithout()));
-        xps.endTag("", METER);
       }
+      xps.endTag("", METER);
 
       xps.startTag("", READING);
       addTag(xps, READING_READING, item.getReading().getReading());

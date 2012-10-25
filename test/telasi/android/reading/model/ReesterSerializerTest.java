@@ -118,6 +118,9 @@ public class ReesterSerializerTest extends TestCase {
       assertEquals(mtr1.getCoeff(), mtr2.getCoeff());
       assertEquals(mtr1.getType(), mtr2.getType());
       assertEquals(mtr1.isWithout(), mtr2.isWithout());
+      assertEquals(mtr1.getNewNumber(), mtr2.getNewNumber());
+      assertEquals(mtr1.getNewCoeff(), mtr2.getNewCoeff());
+      assertEquals(mtr1.getNewSealNumber(), mtr2.getNewSealNumber());
       Reading rdn1 = item1.getReading();
       Reading rdn2 = item2.getReading();
       assertEquals(rdn1.getReading(), rdn2.getReading());
