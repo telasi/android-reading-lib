@@ -12,10 +12,11 @@ import org.xmlpull.v1.XmlSerializer;
 
 public class ReesterSerializerTest extends TestCase {
 
-  private ReesterItem newItem(int id, double reading) {
+  private ReesterItem newItem(int id, double reading, String note) {
     ReesterItem item = new ReesterItem();
     item.setId(id);
     item.setReading(newReading(reading));
+    item.setNote(note);
     return item;
   }
 
@@ -28,8 +29,8 @@ public class ReesterSerializerTest extends TestCase {
   public void testShortReesterSerializer() throws Exception {
     Reester reester = new Reester();
     reester.setId(100);
-    reester.addItem(newItem(1, 1300));
-    reester.addItem(newItem(2, 1500));
+    reester.addItem(newItem(1, 1300, null));
+    reester.addItem(newItem(2, 1500, "my note"));
 
     XmlSerializer xps = XmlPullParserFactory.newInstance().newSerializer();
     String xmlText = new ReesterSerializer().reesterSerialization(xps, reester, false);
@@ -39,6 +40,7 @@ public class ReesterSerializerTest extends TestCase {
     assertTrue(xmlText.contains("<reading>1300.0</reading>"));
     assertTrue(xmlText.contains("<id>2</id>"));
     assertTrue(xmlText.contains("<reading>1500.0</reading>"));
+    assertTrue(xmlText.contains("<note>my note</note>"));
   }
 
   public void testFullReesterSerializer() throws Exception {
