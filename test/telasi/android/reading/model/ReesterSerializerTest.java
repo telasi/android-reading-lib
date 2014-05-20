@@ -15,14 +15,14 @@ public class ReesterSerializerTest extends TestCase {
   private ReesterItem newItem(int id, double reading, String note) {
     ReesterItem item = new ReesterItem();
     item.setId(id);
-    item.setReading(newReading(reading));
-    item.setNote(note);
+    item.setReading(newReading(reading, note));
     return item;
   }
 
-  private Reading newReading(double reading) {
+  private Reading newReading(double reading, String note) {
     Reading r = new Reading();
     r.setReading(reading);
+    r.setNote(note);
     return r;
   }
 

@@ -9,6 +9,24 @@ public class Reading {
   private Date previousReadingDate;
   private double previousRealReading;
   private Date previousRealReadingDate;
+  private String note;
+  private int errorCode;
+
+  public String getNote(){
+    return note;
+  }
+
+  public void setNote(String note){
+    this.note=note;
+  }
+
+  public int getErrorCode(){
+    return errorCode;
+  }
+
+  public void setErrorCode(int errorCode){
+    this.errorCode=errorCode;
+  }
 
   public double getReading() {
     return reading;
@@ -57,5 +75,4 @@ public class Reading {
   public void setPreviousRealReadingDate(Date previousRealReadingDate) {
     this.previousRealReadingDate = previousRealReadingDate;
   }
-
 }

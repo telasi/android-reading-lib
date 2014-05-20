@@ -6,7 +6,6 @@ public class ReesterItem {
   private Account account;
   private Meter meter;
   private Reading reading;
-  private String note;
 
   public static double calculateCharge(double r1, double r2, double coeff, int digits) {
     double diff = Math.round(r2 * coeff) - Math.round(r1 * coeff);
@@ -80,14 +79,6 @@ public class ReesterItem {
 
   public void setMeter(Meter meter) {
     this.meter = meter;
-  }
-
-  public String getNote(){
-    return note;
-  }
-
-  public void setNote(String note){
-    this.note=note;
   }
 
   @Override
