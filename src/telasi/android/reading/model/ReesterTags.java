@@ -66,6 +66,7 @@ public interface ReesterTags {
   static final String PREVIOUS_REAL_READING_DATE = "previous_real_reading_date";
   static final String READING_NOTE="note";
   static final String READING_ERROR_CODE="error_code";
+  static final String READING_ERROR_TEXT="error_text";
   // other params
   static final String OTHER = "other";
   static final String INSTALLED_CAPACITY = "installed_capacity";

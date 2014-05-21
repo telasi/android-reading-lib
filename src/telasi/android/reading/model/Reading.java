@@ -11,6 +11,7 @@ public class Reading {
   private Date previousRealReadingDate;
   private String note;
   private int errorCode;
+  private String errorText;
 
   public String getNote(){
     return note;
@@ -26,6 +27,14 @@ public class Reading {
 
   public void setErrorCode(int errorCode){
     this.errorCode=errorCode;
+  }
+
+  public String getErrorText(){
+    return errorText;
+  }
+
+  public void setErrorText(String text){
+    this.errorText=text;
   }
 
   public double getReading() {

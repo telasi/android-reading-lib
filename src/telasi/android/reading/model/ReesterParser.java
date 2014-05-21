@@ -73,6 +73,7 @@ class ReesterParser implements ReesterTags, MessageTags {
   static final String PATH_ITEM_READING_PREV_REAL_DATE = PATH_ITEM_READING + "/" + PREVIOUS_REAL_READING_DATE;
   static final String PATH_ITEM_READING_NOTE = PATH_ITEM_READING + "/" + READING_NOTE;
   static final String PATH_ITEM_READING_ERROR_CODE = PATH_ITEM_READING + "/" + READING_ERROR_CODE;
+  static final String PATH_ITEM_READING_ERROR_TEXT = PATH_ITEM_READING + "/" + READING_ERROR_TEXT;
   // other parameters
   static final String PATH_ITEM_OTHER = PATH_ITEM + "/" + OTHER;
   static final String PATH_ITEM_OTHER_INSCP = PATH_ITEM_OTHER + "/" + INSTALLED_CAPACITY;
@@ -280,6 +281,8 @@ class ReesterParser implements ReesterTags, MessageTags {
     } else if (this.address.endsWith(PATH_ITEM_READING_ERROR_CODE)){
       String errorCodeText=xpp.getText();
       this.item.getReading().setErrorCode(null==errorCodeText ? 0 : Integer.parseInt(errorCodeText));
+    } else if (this.address.endsWith(PATH_ITEM_READING_ERROR_CODE)){
+      this.item.getReading().setErrorText(xpp.getText());
     }
   }
 
