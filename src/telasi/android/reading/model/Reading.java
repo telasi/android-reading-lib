@@ -9,9 +9,17 @@ public class Reading {
   private Date previousReadingDate;
   private double previousRealReading;
   private Date previousRealReadingDate;
+  private int noteId;
   private String note;
   private int errorCode;
-  private String errorText;
+
+  public int getNoteId(){
+    return noteId;
+  }
+
+  public void setNoteId(int noteid){
+    this.noteId=noteid;
+  }
 
   public String getNote(){
     return note;
@@ -27,14 +35,6 @@ public class Reading {
 
   public void setErrorCode(int errorCode){
     this.errorCode=errorCode;
-  }
-
-  public String getErrorText(){
-    return errorText;
-  }
-
-  public void setErrorText(String text){
-    this.errorText=text;
   }
 
   public double getReading() {
